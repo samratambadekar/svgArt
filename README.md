@@ -7,5 +7,6 @@
   - http://samratambadekar.com/projects/svg/speaker.svg
   - http://samratambadekar.com/projects/svg/jaguar.svg
   - http://samratambadekar.com/projects/svg/drWho/tardis.html
+  - http://samratambadekar.com/projects/svg/shivaji/shivaji.html
   
 
