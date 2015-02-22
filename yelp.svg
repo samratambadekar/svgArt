@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="500" height="500">
+  <g transform="scale(1)">
+    <path  transform="rotate(0,160,170)"
+            d="m159,30
+             l5,100
+             q-6,15 -20,5
+             l-60,-90
+             q-2,-9 15,-18
+             q19,-9 40,-11
+             q20,-3 20,14"
+          style="stroke:#BF2519; stroke-width:1;fill:#BF2519">
+            <animateTransform id=""
+                attributeName="transform" 
+                attributeType="XML" 
+                type="rotate"
+                to="0,160,170"
+                dur="2s"
+                fill="freeze"
+                begin="0.5s"/> 
+
+    </path>
+
+    <path  transform="rotate(-80,160,170)"
+            d="m190,150
+             l40,-45
+             q7,-5 15,5
+             q10,10 20,30
+             q5,12 -7,16
+             l-50,10
+             c-25,7 -25,-10 -18,-16"
+          style="stroke:#BF2519; stroke-width:1;fill:#BF2519">
+            <animateTransform id=""
+                attributeName="transform" 
+                attributeType="XML" 
+                type="rotate"
+                to="0,160,170"
+                dur="0.4s"
+                fill="freeze"
+                begin="0.5s"/> 
+    </path>
+
+    <path transform="rotate(-80,160,170)"
+          d="m190,150
+             l40,-45
+             q7,-5 15,5
+             q10,10 20,30
+             q5,12 -7,16
+             l-50,10
+             c-25,7 -25,-10 -18,-16"
+          style="stroke:#BF2519; stroke-width:1;fill:#BF2519">
+
+            <animateTransform id=""
+                attributeName="transform" 
+                attributeType="XML" 
+                type="rotate"
+                to="70,160,170"
+                dur="0.8s"
+                fill="freeze"
+                begin="0.5s"/> 
+      </path>
+
+    <path transform="rotate(-80,160,170)"
+          d="m190,150
+             l40,-45
+             q7,-5 15,5
+             q10,10 20,30
+             q5,12 -7,16
+             l-50,10
+             c-25,7 -25,-10 -18,-16"
+          style="stroke:#BF2519; stroke-width:1;fill:#BF2519">
+
+            <animateTransform id=""
+                attributeName="transform" 
+                attributeType="XML" 
+                type="rotate"
+                to="145,160,170"
+                dur="1.2s"
+                fill="freeze"
+                begin="0.5s"/> 
+    </path>
+
+    <path transform="rotate(-80,160,170)"
+          d="m190,150
+             l40,-45
+             q7,-5 15,5
+             q10,10 20,30
+             q5,12 -7,16
+             l-50,10
+             c-25,7 -25,-10 -18,-16"
+          style="stroke:#BF2519; stroke-width:1;fill:#BF2519">
+
+            <animateTransform id=""
+                attributeName="transform" 
+                attributeType="XML" 
+                type="rotate"
+                to="210,160,170"
+                dur="1.6s"
+                fill="freeze"
+                begin="0.5s"/> 
+    </path>
+  </g>
+</svg>

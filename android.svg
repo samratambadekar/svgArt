@@ -1,0 +1,148 @@
+<svg id="svg" width="100%" height="425"  xmlns="http://www.w3.org/2000/svg" version="1.1">
+	<defs>
+		<linearGradient id="myLinearGradientLR45"
+			x1="0%" y1="0%"
+			x2="100%" y2="0%"
+			spreadMethod="pad"
+			gradientTransform="rotate(45)">
+		<stop offset="0%" stop-color="#A4C439" stop-opacity="1"/>
+		<stop offset="100%" stop-color="#9AE875" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="myLinearGradientWhiteTB"
+			x1="0%" y1="0%"
+			x2="0%" y2="100%"
+			spreadMethod="pad">
+		<stop offset="50%" stop-color="#FFF" stop-opacity="1"/>
+		<stop offset="100%" stop-color="#CCC" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="myLinearGradientWhiteLR"
+			x1="0%" y1="0%"
+			x2="100%" y2="0%"
+			spreadMethod="pad">
+		<stop offset="0%" stop-color="#CCC" stop-opacity="1"/>
+		<stop offset="100%" stop-color="#FFF" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="myLinearGradientLR"
+			x1="0%" y1="0%"
+			x2="100%" y2="0%"
+			spreadMethod="pad">
+		<stop offset="0%" stop-color="#9AE850" stop-opacity="1"/>
+		<stop offset="100%" stop-color="#9AE875" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="myLinearGradientTB"
+			x1="0%" y1="0%"
+			x2="0%" y2="100%"
+			spreadMethod="pad">
+		<stop offset="0%" stop-color="#9AE885" stop-opacity="1"/>
+		<stop offset="100%" stop-color="#9AE850" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="myLinearGradientTB1"
+			x1="0%" y1="0%"
+			x2="0%" y2="100%"
+			spreadMethod="pad">
+		<stop offset="0%" stop-color="#9AE885" stop-opacity="1"/>
+		<stop offset="100%" stop-color="#9AE899" stop-opacity="1"/>
+		</linearGradient>
+		<filter id="shadow" x="-0.15" y="0" width="200%" height="200%">
+			<feGaussianBlur in="SourceGraphic" stdDeviation="20" />
+		</filter>
+	</defs>
+	<g id="androidSVG">
+		<g id="droidLegs">
+			<path d="M200,330 l0,30 a3,2 -3 0,1 -25,5
+			l-30,-30 q-2,-5 -1.5,-13"
+			style="stroke: #888; stroke-width: 0; fill:url(#myLinearGradientLR45);"/>
+			<path d="M260,321 l0,35 a3,2 -3 0,1 -25,5
+			l-30,-30"
+			style="stroke: #888; stroke-width: 0; fill:url(#myLinearGradientLR45);"/>
+		</g>
+		<g id="droidShadow">
+			<ellipse cx="190" cy="330" rx="100" ry="55" opacity="0.2"
+			style="stroke: none; fill:#000; filter: url(#shadow);"/>
+		</g>
+		<g id="droidBody">
+			<path d="M100,120 l0,170 a50,20 0 0,0 200,0 l0,-170 l0,0"
+			style="stroke: url(#myLinearGradientLR); fill:url(#myLinearGradientLR45);"/>
+			<path d="M300,120 a50,15 0 0,1 -200,0 a50,15 0 0,1 200,0"
+			style="stroke: url(#myLinearGradientLR); fill:url(#myLinearGradientLR45);"/>
+		</g>
+		<g id="droidNeck">
+			<path d="M106,115 a51,15 0 0,0 188,1"
+			style="stroke: #888; stroke-width: 0; fill:url(#myLinearGradientWhiteLR);"/>
+		</g>
+		<g id="droidHead">
+			<path d="M100,105 a50,15 0 0,0 200,0"
+			style="stroke: url(#myLinearGradientLR); fill:url(#myLinearGradientLR);"/>
+			<path d="M100,105 a50,40 0 0,1 200,0"
+			style="stroke: url(#myLinearGradientLR); fill:url(#myLinearGradientLR);"/>
+		</g>
+		<g id="droidArms">
+			<path d="M93,170 l15,-2 
+			a25,25 0 0,0 -2,-19
+			l-16,2z"
+			style="stroke: url(#myLinearGradientWhiteTB); fill:url(#myLinearGradientWhiteTB);"/>
+			<path d="M95,180 l-15,-100 
+			a9,10 0 0,0 -32,3
+			l17,105
+			a9,10 0 0,0 30,-9"
+			style="stroke: #888; stroke-width: 0; fill:url(#myLinearGradientTB);"/>
+			<path d="M305,145 
+			l20,-45
+			a10,10 0 0,1 30,15
+			l-21,50
+			a10,9 30 0,1 -29,-20"
+			style="stroke: #888; stroke-width: 0; fill:url(#myLinearGradientTB);"/>		
+			<path d="M301,158 l10,-2 
+			a25,25 0 0,1 -2,-15
+			l-9,2z"
+			style="stroke: url(#myLinearGradientWhiteTB); fill:url(#myLinearGradientWhiteTB);"/>		
+		</g>
+		<g id="droidEyes">
+			<ellipse cx="185" cy="90" rx="11" ry="10"
+			style="stroke: white; fill:url(#myLinearGradientWhiteTB);"/>
+			<ellipse cx="265" cy="83" rx="7" ry="10"
+			transform="rotate(-30,265,83)"
+			style="stroke: white; fill:url(#myLinearGradientWhiteTB);"/>
+		</g>
+		<g id="droidAntenne">
+			<path id="leftAntenna" d="M150,55 q-5,-20 -25,-30"
+			style="stroke: url(#myLinearGradientTB1); stroke-width: 5; fill:none;">
+				<animate id="leftAntennaAnimate1"
+					  attributeName="d" 
+					  attributeType="XML"
+					  to="M150,55 q-5,-10 -15,-30"
+					  dur="0.3s"
+					  repeatCount="1"
+					  fill="freeze"
+					  begin="androidSVG.click"/>
+				<animate id="leftAntennaAnimate2"
+					  attributeName="d" 
+					  attributeType="XML"
+					  to="M150,55 q-5,-20 -25,-30"
+					  dur="0.3s"
+					  repeatCount="1"
+					  fill="freeze"
+					  begin="leftAntennaAnimate1.end"/>
+			</path>
+			<path id="rightAntenna" d="M250,42 q0,-15 25,-30"
+			style="stroke: url(#myLinearGradientTB1); stroke-width: 5; fill:none;">
+				<animate id="rightAntennaAnimate1"
+					  attributeName="d" 
+					  attributeType="XML"
+					  to="M250,42 q0,-15 25,-25"
+					  dur="0.3s"
+					  repeatCount="1"
+					  fill="freeze"
+					  begin="leftAntennaAnimate1.end-0.1s"/>
+				<animate id="rightAntennaAnimate2"
+					  attributeName="d" 
+					  attributeType="XML"
+					  to="M250,42 q0,-15 25,-30"
+					  dur="0.3s"
+					  repeatCount="1"
+					  fill="freeze"
+					  begin="rightAntennaAnimate1.end"/>
+			</path>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,1407 @@
+<!--
+	The Jaguar F-Type
+	by Samrat Ambadekar <http://samratambadekar.com>
+	
+	There is nothing down below except lines. Lots of lines!
+-->
+
+<svg id="svg" width="120%" height="600"  xmlns="http://www.w3.org/2000/svg" version="1.1"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<style type="text/css">@import url('http://fonts.googleapis.com/css?family=Cookie');</style>
+		
+		<linearGradient id="linearGradientGreyRed"
+			x1="0%" y1="0%"
+			x2="0%" y2="100%"
+			spreadMethod="pad">
+			<stop offset="0%" stop-color="#FF5F6F" stop-opacity="1"/>
+			<stop offset="65%" stop-color="#F7423B" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="linearGradientBlue"
+			x1="0%" y1="0%"
+			x2="0%" y2="100%"
+			spreadMethod="pad">
+			<stop offset="0%" stop-color="#3F8EAD" stop-opacity="1"/>
+			<stop offset="65%" stop-color="#306E8D" stop-opacity="1"/>
+		</linearGradient>
+		<filter id="shadow" x="-0.15" y="-0.6" width="120%" height="200%">
+			<feGaussianBlur in="SourceGraphic" stdDeviation="8" />
+		</filter>
+		<filter id="shadow1" x="-0.15" y="-0.6" width="120%" height="200%">
+			<feGaussianBlur in="SourceGraphic" stdDeviation="4" />
+		</filter>
+		<filter id="glow" x="-0.15" y="-0.2" width="120%" height="200%">
+			<feGaussianBlur in="SourceGraphic" stdDeviation="0.8" />
+		</filter>
+		<filter id="blinkerGlow" x="-0.15" y="-0.2" width="120%" height="200%">
+			<feGaussianBlur in="SourceGraphic" stdDeviation="1.5" />
+		</filter>
+	</defs>
+	<g transform="translate(80,0),scale(1.0)">
+	
+		<text x="230" y="100" style="opacity:0"
+			font-family="Cookie" font-size="42" fill="#888" >
+			Coded with love
+			
+			<animate id="aniStep1"
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="1"
+				  dur="0.5s"
+				  fill="freeze"
+				  begin="1s"/> 
+		</text>
+		<text x="430" y="100" style="opacity:0"
+			font-family="Cookie" font-size="42" fill="#888" >
+			.
+			
+			<animate id="aniStep2"
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="1"
+				  dur="1s"
+				  fill="freeze"
+				  begin="aniStep1.end"/> 
+		</text>
+		<text x="440" y="100" style="opacity:0"
+			font-family="Cookie" font-size="42" fill="#888" >
+			.
+			
+			<animate id="aniStep3"
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="1"
+				  dur="1s"
+				  fill="freeze"
+				  begin="aniStep2.end"/> 
+		</text>
+		<text x="460" y="100" style="opacity:0"
+			font-family="Cookie" font-size="42" fill="#888" >
+			For cars!
+			
+			<animate id="aniStep4"
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="1"
+				  dur="1s"
+				  fill="freeze"
+				  begin="aniStep3.end"/> 
+		</text>
+		
+		<text x="500" y="580" style="opacity:0"
+			font-family="Cookie" font-size="42" fill="#888" >
+			Jaguar F Type
+			
+			<animate id="aniStep17"
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="1"
+				  dur="1s"
+				  fill="freeze"
+				  begin="aniStep14.end"/> 
+		</text>
+		
+		<ellipse id="carShadow" cx="580" cy="450" rx="480" ry="70"
+		transform="rotate(0,590,430)"
+		style="stroke: #000; stroke-width: 1;fill:#000;filter:url(#shadow);opacity:0;">		
+			<animate id=""
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="0.7"
+				  dur="1s"
+				  fill="freeze"
+				  begin="aniStep13.end"/>
+		</ellipse>
+		
+		<g id="tyreExtras" style="opacity:0">
+			<g id="blackUnderShadow">
+				<path d="M580,300
+					l200,0
+					l0,168
+					l-200,-16"
+				style="stroke: #000; stroke-width: 0.8;fill:#000;"/>
+				
+				<path d="M120,300
+					l130,0
+					l0,150
+					l-140,-18"
+				style="stroke: #000; stroke-width: 0.8;fill:#000;"/>
+			</g>
+			
+			<g id="rightRearTyreOutline">
+				<ellipse cx="908" cy="390" rx="89" ry="92"
+				transform="rotate(-10,908,390)"
+				style="stroke: #000; stroke-width: 1;fill:#000;"/>			
+			</g>
+			<animate id="aniStep12"
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="1"
+				  dur="1.5s"
+				  fill="freeze"
+				  begin="aniStep10.end"/> 
+		</g>
+		
+		<g id="leftRearTyreOutline" style="opacity:0">
+		
+			
+			<ellipse cx="692" cy="406" rx="99" ry="95"
+			transform="rotate(-10,692,406)"
+			style="stroke: #1C1C1C; stroke-width: 0.8;fill:#1C1C1C;"/>
+			
+			<ellipse cx="670" cy="410" rx="73" ry="92"
+			transform="rotate(-10,670,410)"
+			style="stroke: #2D2D2D; stroke-width: 0.8;fill:#2D2D2D;"/>
+			
+			<ellipse cx="674" cy="410" rx="52" ry="70"
+			transform="rotate(-10,674,410)"
+			style="stroke: #444; stroke-width: 0;fill:#333;"/>
+			
+			<g id="leftRearBrakes">
+				<path d="M645,385
+						  l15,0
+						  q0,30 10,55
+						  q-5,5 -10,0
+						  q-20,-30 -10,-55"
+					style="stroke: #B7312C; stroke-width: 1;fill:#B7312C;"/>
+			</g>
+			<ellipse cx="674" cy="410" rx="55" ry="72"
+			transform="rotate(-10,674,410)"
+			style="stroke: #C0C0C0; stroke-width: 6;fill:none;"/>
+			
+			<ellipse cx="670" cy="410" rx="63" ry="81"
+			transform="rotate(-10,670,410)"
+			style="stroke: #D3D3D3; stroke-width: 6;fill:none;"/>
+			
+			<ellipse cx="670" cy="410" rx="57" ry="75"
+			transform="rotate(-10,670,410)"
+			style="stroke: #969696; stroke-width: 6;fill:none;"/>
+
+			<ellipse cx="680" cy="410" rx="24" ry="30"
+			transform="rotate(-10,680,410)"
+			style="stroke: #444; stroke-width: 0;fill:#D3D3D3;"/>
+			
+			<ellipse cx="674" cy="410" rx="19" ry="23"
+			transform="rotate(-10,674,410)"
+			style="stroke: #444; stroke-width: 0;fill:#C0C0C0;"/>
+			
+			<g id="rearTyreBolts" style="opacity:0.7;">
+				<ellipse cx="668" cy="398" rx="3.7" ry="4"
+				style="stroke: #2A2A2A; stroke-width: 0;fill:#2A2A2A;"/>
+				
+				<ellipse cx="681" cy="399" rx="3" ry="4"
+				style="stroke: #2A2A2A; stroke-width: 0;fill:#2A2A2A;"/>
+				
+				<ellipse cx="685" cy="415" rx="3" ry="4"
+				style="stroke: #2A2A2A; stroke-width: 0;fill:#2A2A2A;"/>
+				
+				<ellipse cx="673" cy="425" rx="3.5" ry="3.7"
+				style="stroke: #2A2A2A; stroke-width: 0;fill:#2A2A2A;"/>
+				
+				<ellipse cx="664" cy="415" rx="3.6" ry="4"
+				style="stroke: #2A2A2A; stroke-width: 0;fill:#2A2A2A;"/>
+			</g>
+			
+			<g id="leftRearRim">
+				<g>
+					<path
+						d="M658,394
+							l-10,-13
+							q7,-2 5,-10
+							q8,7 17,12z"
+					style="stroke: #000; stroke-width: 0;fill:#C0C0C0;"/>
+					<path
+						d="M666,388
+							q-20,-10 -15,-55
+							l10,8
+							q-10,18 6,40z"
+					style="stroke: #000; stroke-width: 0;fill:#969696;"/>
+					<path
+						d="M666,388
+							q-20,-10 -15,-55"
+					style="stroke: #D3D3D3; stroke-width: 2.5;fill:none;"/>
+					<path
+						d="M660,392
+							q-20,-16 -45,-12"
+					style="stroke: #969696; stroke-width: 4;fill:none;"/>
+					<path
+						d="M660,392
+							q-20,-16 -45,-12"
+					style="stroke: #D3D3D3; stroke-width: 2.5;fill:none;"/>
+				</g>
+				
+				<g>
+					<path
+						d="M653,412
+							q8,5 -15,2
+							q10,5 10,12
+							l13,-3z"
+					style="stroke: #C0C0C0; stroke-width: 1;fill:#C0C0C0;"/>
+					<path
+						d="M656,410
+							q-10,7 -45,0"
+					style="stroke: #969696; stroke-width: 6;fill:none;"/>
+					<path
+						d="M656,414
+							q-10,7 -45,0"
+					style="stroke: #D3D3D3; stroke-width: 3;fill:none;"/>
+					<path
+						d="M657,423
+							q-19,3 -27,40
+							l10,-5
+							q10,-25 22,-30z"
+					style="stroke: #969696; stroke-width: 1;fill:#969696;"/>
+					<path
+						d="M657,423
+							q-19,3 -27,40"
+					style="stroke: #D3D3D3; stroke-width: 2.5;fill:none;"/>
+				</g>
+				
+				<g>
+					<path
+						d="M670,432
+							q3,25 -16,50"
+					style="stroke: #969696; stroke-width: 6;fill:none;"/>
+					<path
+						d="M667,432
+							q3,25 -17,50"
+					style="stroke: #D3D3D3; stroke-width: 3;fill:none;"/>
+					<path
+						d="M672,433
+							l-1,17
+							q8,-8 12,0
+							l-5,-19z"
+					style="stroke: #C0C0C0; stroke-width: 1;fill:#C0C0C0;"/>
+					
+					<path
+						d="M680,430
+							q3,20 20,51"
+					style="stroke: #969696; stroke-width: 6;fill:none;"/>
+					<path
+						d="M676,430
+							q3,20 20,53"
+					style="stroke: #D3D3D3; stroke-width: 2.5;fill:none;"/>
+				</g>
+							
+				<g>	
+					<path
+						d="M695,420
+							l10,10
+							q-8,-8 2,-15
+							l-12,-5z"
+					style="stroke: #969696; stroke-width: 2;fill:#D3D3D3;"/>
+					
+					<path
+						d="M690,422
+							q18,10 28,39"
+					style="stroke: #969696; stroke-width: 5;fill:none;"/>
+					<path
+						d="M689,425
+							q18,10 26,42"
+					style="stroke: #D3D3D3; stroke-width: 2.5;fill:none;"/>
+					
+					<path
+						d="M692,410
+							q20,7 36,-10"
+					style="stroke: #969696; stroke-width: 5;fill:none;"/>
+					<path
+						d="M692,412
+							q20,7 38,-10"
+					style="stroke: #D3D3D3; stroke-width: 2.5;fill:none;"/>
+				</g>
+							
+				<g>	
+					<path
+						d="M690,390
+							l25,-5
+							q-20,0 -25,-12
+							l-5,10z"
+					style="stroke: #C0C0C0; stroke-width: 1;fill:#C0C0C0;"/>
+					
+					<path
+						d="M688,395
+							q-3,-10 35,-15
+							l1,2
+							q-15,4 -25,15z"
+					style="stroke: #969696; stroke-width: 1;fill:#969696;"/>
+					<path
+						d="M687,394
+							q-3,-8 36,-15"
+					style="stroke: #D3D3D3; stroke-width: 2.5;fill:none;"/>
+					
+					<path
+						d="M681,390
+							q15,-15 -2,-52"
+					style="stroke: #969696; stroke-width: 6;fill:none;"/>
+					<path
+						d="M678,390
+							q15,-15 -2,-52"
+					style="stroke: #D3D3D3; stroke-width: 2.5;fill:none;"/>
+				</g>
+			</g>
+			
+			<animate id=""
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="1"
+				  dur="1s"
+				  fill="freeze"
+				  begin="aniStep10.end"/> 
+		</g>
+		
+		<g id="leftFrontTyre" style="opacity:0">
+			<ellipse cx="212" cy="387" rx="95" ry="80"
+			transform="rotate(-10,215,389)"
+			style="stroke: #1C1C1C; stroke-width: 0.8;fill:#1C1C1C;"/>
+			
+			<ellipse id="leftFrontTyreOutline" cx="185" cy="389" rx="67" ry="80"
+			transform="rotate(-10,185,389)"
+			style="stroke: #2D2D2D; stroke-width: 0.8;fill:#2D2D2D;"/>
+			
+			<ellipse cx="186" cy="390" rx="61" ry="74"
+			transform="rotate(-10,186,390)"
+			style="stroke: #444; stroke-width: 0;fill:#C0C0C0;"/>
+			
+			<ellipse cx="186" cy="390" rx="55" ry="68"
+			transform="rotate(-10,186,390)"
+			style="stroke: #444; stroke-width: 0;fill:#969696;"/>
+			
+			<ellipse cx="189" cy="390" rx="53" ry="66"
+			transform="rotate(-10,189,390)"
+			style="stroke: #444; stroke-width: 0;fill:#C0C0C0;"/>
+			
+			<ellipse cx="191" cy="390" rx="50" ry="63"
+			transform="rotate(-10,191,390)"
+			style="stroke: #444; stroke-width: 0;fill:#333;"/>
+			
+			<g id="leftFrontBrakes">
+				<path d="M220,362
+						  l10,0
+						  q15,45 -10,75
+						  q-5,5 -13,-15
+						  q10,-35 0,-45"
+					style="stroke: #B7312C; stroke-width: 1;fill:#B7312C;"/>
+			</g>
+			
+			<ellipse cx="195" cy="390" rx="22" ry="27"
+			transform="rotate(-10,195,390)"
+			style="stroke: #444; stroke-width: 0;fill:#D3D3D3;"/>
+			
+			<ellipse cx="190" cy="390" rx="19" ry="22"
+			transform="rotate(-10,190,390)"
+			style="stroke: #444; stroke-width: 0;fill:#C0C0C0;"/>
+			
+			<g id="frontTyreBolts" style="opacity:0.7;">
+				<ellipse cx="179" cy="387" rx="3.7" ry="4"
+				style="stroke: #2A2A2A; stroke-width: 0;fill:#2A2A2A;"/>
+				
+				<ellipse cx="190" cy="376" rx="3.6" ry="3.8"
+				style="stroke: #2A2A2A; stroke-width: 0;fill:#2A2A2A;"/>
+				
+				<ellipse cx="202" cy="386" rx="3.4" ry="3.7"
+				style="stroke: #2A2A2A; stroke-width: 0;fill:#2A2A2A;"/>
+				
+				<ellipse cx="198" cy="400" rx="3.5" ry="3.7"
+				style="stroke: #2A2A2A; stroke-width: 0;fill:#2A2A2A;"/>
+				
+				<ellipse cx="183" cy="400" rx="3.7" ry="3.8"
+				style="stroke: #2A2A2A; stroke-width: 0;fill:#2A2A2A;"/>
+			</g>
+			
+			<g id="leftFrontRim">
+				<g>
+					<path
+						d="M171,388
+							q-10,-4 -17,-4
+							q7,-2 5,-12
+							q8,7 15,8z"
+					style="stroke: #000; stroke-width: 0;fill:#969696;"/>
+					<path
+						d="M173,379
+							q-20,-5 -27,-38
+							l8,4
+							q7,24 23,29z"
+					style="stroke: #000; stroke-width: 0;fill:#969696;"/>
+					<path
+						d="M173,379
+							q-20,-5 -27,-38"
+					style="stroke: #D3D3D3; stroke-width: 2.5;fill:none;"/>
+					<path
+						d="M171,389
+							q-20,-6 -40,5"
+					style="stroke: #969696; stroke-width: 4;fill:none;"/>
+					<path
+						d="M171,388
+							q-20,-6 -40,1"
+					style="stroke: #D3D3D3; stroke-width: 2.5;fill:none;"/>
+				</g>
+				
+				<g>
+					<path
+						d="M177,404
+							q-8,15 -13,12
+							q10,2 15,15
+							l7,-20z"
+					style="stroke: #969696; stroke-width: 1;fill:#969696;"/>
+					<path
+						d="M177,404
+							q-10,14 -37,14"
+					style="stroke: #969696; stroke-width: 3;fill:none;"/>
+					<path
+						d="M177,404
+							q-10,16 -37,17"
+					style="stroke: #D3D3D3; stroke-width: 3;fill:none;"/>
+					<path
+						d="M185,410
+							q-15,20 -15,42
+							l7,-4
+							q2,-20 10,-34z"
+					style="stroke: #969696; stroke-width: 1;fill:#969696;"/>
+					<path
+						d="M185,410
+							q-15,20 -15,42"
+					style="stroke: #D3D3D3; stroke-width: 2.5;fill:none;"/>
+				</g>
+				
+				<g>
+					<path
+						d="M200,408
+							q-3,18 -2,45"
+					style="stroke: #969696; stroke-width: 5;fill:none;"/>
+					<path
+						d="M198,409
+							q-4,18 -4,45"
+					style="stroke: #D3D3D3; stroke-width: 3;fill:none;"/>
+					<path
+						d="M201,408
+							l-1,17
+							q8,-8 15,-4
+							l-5,-9z"
+					style="stroke: #D3D3D3; stroke-width: 1;fill:#D3D3D3;"/>
+					
+					<path
+						d="M204,405
+							q6,16 28,25"
+					style="stroke: #969696; stroke-width: 6;fill:none;"/>
+					<path
+						d="M203,405
+							q5,18 28,29"
+					style="stroke: #D3D3D3; stroke-width: 2.5;fill:none;"/>
+				</g>
+							
+				<g>	
+					<path
+						d="M208,388
+							l15,5
+							q-8,-8 -5,-20
+							l-12,5z"
+					style="stroke: #969696; stroke-width: 2;fill:#D3D3D3;"/>
+					
+					<path
+						d="M208,388
+							q18,3 34,15"
+					style="stroke: #969696; stroke-width: 5;fill:none;"/>
+					<path
+						d="M208,388
+							q18,3 34,15"
+					style="stroke: #D3D3D3; stroke-width: 2.5;fill:none;"/>
+					
+					<path
+						d="M205,380
+							q20,-5 26,-25"
+					style="stroke: #969696; stroke-width: 4;fill:none;"/>
+					<path
+						d="M205,378
+							q20,-5 26,-25"
+					style="stroke: #D3D3D3; stroke-width: 2.5;fill:none;"/>
+				</g>
+							
+				<g>	
+					<path
+						d="M195,370
+							l3,-20
+							q-8,8 -15,0
+							l0,18z"
+					style="stroke: #969696; stroke-width: 1;fill:#969696;"/>
+					
+					<path
+						d="M195,370
+							q-3,-20 22,-35
+							l1,4
+							q-15,14 -15,28z"
+					style="stroke: #969696; stroke-width: 1;fill:#969696;"/>
+					<path
+						d="M195,370
+							q-3,-20 22,-35"
+					style="stroke: #D3D3D3; stroke-width: 2.5;fill:none;"/>
+					
+					<path
+						d="M185,370
+							q0,-15 -15,-40"
+					style="stroke: #969696; stroke-width: 5;fill:none;"/>
+					<path
+						d="M184,370
+							q0,-15 -17,-40"
+					style="stroke: #D3D3D3; stroke-width: 2.5;fill:none;"/>
+				</g>
+			</g>
+			
+			<animate id="aniStep11"
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="1"
+				  dur="1s"
+				  fill="freeze"
+				  begin="aniStep10.end"/> 
+		</g>
+		
+		<g id="outline1" style="opacity:0">
+			<path id="" d="M110,430 
+					q-15,-70 -12,-85 
+					c0,-95 175,-75 220,-85
+					q80,-55 140,-80
+					c70,-20 180,-40 350,5
+					q120,30 240,85
+					c10,70 -20,60 10,92
+					q0,40 -10,67
+					q-80,35 -275,40
+					c-20,-190 -120,-160 -140,-150
+					c-60,30 -50,90 -32,138
+					l-15,10
+					l-348,-23
+					c16,-80 -30,-150 -78,-140
+					c-45,10 -55,80 -30,138
+					l-7,1
+					c-13,0 -25,-15 -13,-14
+					
+					M744,172
+					  q18,-4 24,-10
+					  l10,0
+					  c0,10 0,10 5,19
+					  q-4,2 -39,-9
+					  
+					M777,162
+					  c0,10 0,10 5,19
+					  
+					M348,252
+					  q-1,-8 -5,-15
+					  c0,-6 23,-18 30,-13
+					  c5,5 5,28 1,32
+					  q-26,5 -26,-4"
+				style="stroke: #888; stroke-width: 0;fill:url(#linearGradientGreyRed);cursor:pointer;">
+			</path><!-- F7423B -->
+			
+			<animate id="aniStep15"
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="1"
+				  dur="1s"
+				  fill="freeze"
+				  begin="aniStep14.end"/>
+		</g>
+		<g id="outline2">
+			<path id="" d="M110,430 
+				q-15,-70 -12,-85 
+				c0,-95 175,-75 220,-85
+				q80,-55 140,-80
+				c70,-20 180,-40 350,5
+				q120,30 240,85
+				c10,70 -20,60 10,92
+				q0,40 -10,67
+				q-80,35 -275,40
+				c-20,-190 -120,-160 -140,-150
+				c-60,30 -50,90 -32,138
+				l-15,10
+				l-348,-23
+				c16,-80 -30,-150 -78,-140
+				c-45,10 -55,80 -30,138
+				l-7,1
+				c-13,0 -25,-15 -13,-14
+				
+				M744,172
+				  q18,-4 24,-10
+				  l10,0
+				  c0,10 0,10 5,19
+				  q-4,2 -39,-9
+				  
+				  M777,162
+				  c0,10 0,10 5,19
+				  
+				  M348,252
+					  q-1,-8 -5,-15
+					  c0,-6 23,-18 30,-13
+					  c5,5 5,28 1,32
+					  q-26,5 -26,-4"
+			style="stroke: #888; stroke-width: 0;fill:url(#linearGradientBlue);cursor:pointer;visibility:visible;opacity:0;">
+				
+				<!-- #306E8D F7423B -->
+				
+			<animate id=""
+				  attributeName="visibility" 
+				  attributeType="CSS"
+				  to="visible"
+				  dur="0.5s"
+				  fill="freeze"
+				  begin="outline1.click + 1"/>			
+			<animate id=""
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="1"
+				  dur="0.5s"
+				  fill="freeze"
+				  begin="outline1.click + 1"/> 	
+
+			<animate id="aniStep10"
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="1"
+				  dur="1s"
+				  fill="freeze"
+				  begin="aniStep9.end"/> 
+				  
+			<animate id="aniStep16"
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="0"
+				  dur="0.5s"
+				  fill="freeze"
+				  begin="aniStep15.end + 3;outline2.click + 1"/> 
+			<animate id=""
+				  attributeName="visibility" 
+				  attributeType="CSS"
+				  to="hidden"
+				  dur="0.5s"
+				  fill="freeze"
+				  begin="aniStep16.end"/>				
+			</path>
+		</g>
+		<g id="outline3">
+			<path id="outlinePath" d="M110,430 
+				q-15,-70 -12,-85 
+				c0,-95 175,-75 220,-85
+				q80,-55 140,-80
+				c70,-20 180,-40 350,5
+				q120,30 240,85
+				c10,70 -20,60 10,92
+				q0,40 -10,67
+				q-80,35 -275,40
+				c-20,-190 -120,-160 -140,-150
+				c-60,30 -50,90 -32,138
+				l-15,10
+				l-348,-23
+				c16,-80 -30,-150 -78,-140
+				c-45,10 -55,80 -30,138
+				l-7,1
+				c-13,0 -25,-15 -13,-14
+				
+				M744,172
+				  q18,-4 24,-10
+				  l10,0
+				  c0,10 0,10 5,19
+				  q-4,2 -39,-9
+				  
+				  M777,162
+				  c0,10 0,10 5,19
+				  
+				  M348,252
+					  q-1,-8 -5,-15
+					  c0,-6 23,-18 30,-13
+					  c5,5 5,28 1,32
+					  q-26,5 -26,-4"
+			style="stroke: #888; stroke-width: 1;fill:none;cursor:pointer;stroke-dasharray:3000;stroke-dashoffset: 3000;visibility:visible;opacity:1;">
+				
+				<!-- #306E8D F7423B -->
+				
+				<animate id=""
+					  attributeName="stroke-dashoffset" 
+					  attributeType="CSS"
+					  to="0"
+					  dur="5.1s"
+					  fill="freeze"
+					  begin="aniStep4.end"/> 
+								
+				
+			</path>
+		</g>
+		
+		<g id="additionalParts1" style="opacity:0">
+			<g id="leftHeadLight">
+				<path d="M103,320
+						  q15,-28 45,-38
+						  l2,4
+						  q-30,10 -47,34"
+				style="stroke: #EFEFEF; stroke-width: 0.8;fill:#EFEFEF;"/>
+			</g>
+			
+			<g id="leftAirVent1">
+				<path d="M148,282
+						  q15,-7 45,-12
+						  q7,9 10,20
+						  q-25,-10 -53,-5"			
+				style="stroke: #555; stroke-width: 0.8;fill:#555;"/>
+			</g>
+			
+			<g id="leftHeadLightLine1">
+				<path d="M150,285
+						  q6,16 10,19"
+				style="stroke: #555; stroke-width: 1;fill:none;"/>
+			</g>
+			
+			<g id="leftFrontBumperMesh1">
+				<path d="M103,397
+						  q-5,-24 -5,-48
+						  l7,1
+						  q-4,20 -2,47
+						"			
+				style="stroke: #444; stroke-width: 0.8;fill:#444;"/>
+			</g>
+			
+			<g id="leftFrontBumperMesh2">
+				<path d="M110,427
+						  l-3,-12
+						  l7,0
+						  l3,12z"
+				style="stroke: #444; stroke-width: 0.8;fill:#444;"/>
+			</g>
+			
+			<g id="frontBumper">
+				<path d="M110,427
+						  q-5,5 18,5
+						  l5,10
+						  c-16,8 -45,-20 -19,-17z"
+				style="stroke: #444; stroke-width: 0.8;fill:#444;"/>
+			</g>
+			
+			<g id="leftSideLine1">
+				<path d="M202,318
+						  c10,-12 18,-10 30,-10"
+				style="stroke: #1C1C1C; stroke-width: 1;fill:none;"/>
+			</g>
+			
+			<g id="leftSideLine2">
+				<path d="M542,367
+						  l49,-1"
+				style="stroke: #EEE; stroke-width: 1;fill:none;"/>
+			</g>
+			
+			<g id="leftSideMesh1">
+				<path d="M232,308
+						  l68,0
+						  l0,15
+						  l-50,0
+						  q-7,0 -18,-15"
+				style="stroke: #1C1C1C; stroke-width: 1;fill:#CFCFCF;"/>
+				
+				<path d="M245,308
+						  l45,0
+						  l0,9
+						  l-30,0
+						  q-8,0 -15,-9"
+				style="stroke: #6F6F6F; stroke-width: 1;fill:#7A7A7D;"/>
+				
+				<path d="M290,308
+						  l10,0
+						  l0,15
+						  l-5,0
+						  l-5,-5z"
+				style="stroke: #333; stroke-width: 1;fill:#333;"/>
+			</g>
+						
+			<!--
+			<g id="leftSideShadowLine1">
+				<path d="M567,250
+						  q140,-32 351,12
+						  l-36,5
+						  q-170,-47 -315,-17"
+				style="stroke: #EEE; stroke-width: 1;fill:#EEE; opacity:1; filter:url(#shadow);"/>
+			</g>
+			<g id="leftSideShadowLine2">
+				<path d="M323,260
+						  q55,-40 130,-75
+						  c45,-13 150,-48 465,77
+						  q-215,-46 -351,-12z"
+				style="stroke: #000; stroke-width: 1;fill:#000;opacity:0.4;filter:url(#glow);"/>
+			</g>
+			-->
+			
+			<animate id="aniStep6"
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="1"
+				  dur="1s"
+				  fill="freeze"
+				  begin="aniStep5.end"/> 
+		</g>
+		
+		<g id="additionalParts2" style="opacity:0">
+			<g id="leftSideSpoilerOutline">
+				<path d="M241,410
+						  q300,4 317,-5
+						  q10,0 3,15
+						  q-8,22 -15,32
+						  l54,2
+						  l1,3
+						  l-15,10
+						  l-348,-23
+						  q4,-18 4,-34"
+				style="stroke: #555; stroke-width: 1;fill:none;"/>
+				
+				<path d="M239,437
+						  l12,-1
+						  l3,-23
+						  l7,0
+						  l4,19
+						  l291,2
+						  l-10,18
+						  l54,2
+						  l1,3
+						  l-15,10
+						  l-348,-23
+						  l1,-8"
+				style="stroke: #1C1C1C; stroke-width: 1;fill:#1C1C1C;"/>
+				
+				<path d="M239,443
+						  l346,23"
+				style="stroke: #FFF; stroke-width: 0.9;fill:none;"/>
+			</g>
+			
+			<g id="leftWindow">
+				<path d="M330,260
+						  q55,-40 110,-65
+						  c40,-20 180,-30 263,18
+						  q4,4 -2,7
+						  q-100,21 -135,30
+						  q-100,6 -236,10"
+				style="stroke: #444; stroke-width: 1;fill:#444;"/>
+				
+				<path d="M340,260
+						  q55,-43 110,-65
+						  c40,-15 160,-25 235,18
+						  q4,4 -2,7
+						  q-60,15 -115,29
+						  q-100,6 -228,10"
+				style="stroke: #888; stroke-width: 1;fill:#DCDCDC;"/>
+				
+				<path d="M340,260
+						  q25,-20 53,-36
+						  l-15,34
+						  l-38,2"
+				style="stroke: #888; stroke-width: 1;fill:#444;"/>
+				
+				<path d="M340,260
+						  q25,-20 53,-36"
+				style="stroke: #FFF; stroke-width: 1.1;fill:none;"/>
+				
+				<path d="M601,186
+						  l-34,64"
+				style="stroke: #555; stroke-width: 3;fill:none;"/>
+			</g>
+			
+			<g id="leftDoor">
+				<path d="M330,260
+						  l-12,7
+						  q-34,30 -2,142
+						  l190,0
+						  q28,-5 32,-25
+						  l30,-135
+						  q-30,3 -238,11"
+				style="stroke: #555; stroke-width: 1;fill:none;"/>
+				
+				<path d="M502,290
+						  l30,0
+						  q5,5 -2,10
+						  l-28,0
+						  q-5,-5 0,-10"
+				style="stroke: #000; stroke-width:0.3;fill:none;"/>
+			</g>
+			
+			<g id="leftMirror">
+				<path d="M348,252
+						  q-1,-8 -5,-15
+						  c0,-6 23,-18 30,-13
+						  c5,5 5,28 1,32
+						  q-26,5 -26,-4"
+				style="stroke: #888; stroke-width: 1;fill:none;"/>
+				
+				<path d="M347,244
+						  l15,-2"
+				style="stroke: #DFDFDF; stroke-width: 5;fill:none;"/>
+				
+				<path d="M362,252
+						  l-1,-15
+						  q3,-12 12,-12
+						  c5,3 5,28 1,28
+						  q-12,2 -12,-3"
+				style="stroke: #333; stroke-width: 5;fill:none;"/>
+				
+				<!-- <path d="M363,234
+						  q2,-10 10,-10"
+				style="stroke: #FFF; stroke-width: 6;fill:none; filter:url(#glow);"/>
+				 -->
+			</g>
+			
+			<animate id="aniStep7"
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="1"
+				  dur="1s"
+				  fill="freeze"
+				  begin="aniStep6.end"/> 
+		</g>
+		<g id="additionalParts3" style="opacity:0">
+			<g id="rearGlass">
+				<path d="M708,190
+						  q60,-12 95,-5
+						  q110,30 180,60
+						  q-30,10 -140,-15z"
+				style="stroke: #BDBDBD; stroke-width:1;fill:#BDBDBD;"/>
+				<path d="M712,191
+						  q60,-10 100,-3"
+				style="stroke: #444; stroke-width:1;fill:#444;"/>
+			</g>
+			
+			<g id="roofLine1">
+				<path d="M662,177
+						  q45,-8 82,-6"
+				style="stroke: #444; stroke-width: 1;fill:none;"/>
+			</g>
+			
+			<!-- <g id="roofFin">
+				<path d="M744,172
+						  q18,-4 24,-10
+						  l10,0
+						  c0,10 0,10 5,19
+						  q-4,2 -39,-9"
+				style="stroke: #888; stroke-width: 1;fill:none;"/>
+				
+				<path id="roofFinGlow" d="M777,162
+						  c0,10 0,10 5,19"
+				style="stroke: #EEE; stroke-width: 3;fill:none;"/>
+			</g> -->
+			
+			<g id="rearLine1">
+				<path d="M713,325
+						  l7,-7
+						  l28,-15
+						  c30,-15 30,-17 72,-20
+						  q40,-3 228,-6"
+				style="stroke: #444; stroke-width:1;fill:none;"/>
+			</g>
+			
+			<g id="rearWindowTopLine">
+				<path d="M712,191
+						  q60,-10 100,-3"
+				style="stroke: #444; stroke-width:1;fill:none;"/>
+			</g>
+			
+			<g id="rearTailLightRight">
+				<path d="M1036,277
+						  l13,0
+						  q2,10 1,20
+						  c-10,-2 -10,-2 -14,-20"
+				style="stroke: #AA5754; stroke-width:1;fill:#AA5754;"/>
+			</g>
+			
+			<g id="rearTailLightLeft">
+				<path d="M748,303
+						  c30,-15 30,-17 72,-20
+						  q40,-3 123,-4
+						  c-13,22 -13,22 -23,22
+						  q-14,15 -30,-1
+						  l-142,3"
+				style="stroke: #AA5754; stroke-width:1;fill:#AA5754;">
+					<animate id=""
+					  attributeName="fill" 
+					  attributeType="CSS"
+					  to="#F75921"
+					  dur="0.3s"
+					  repeatCount="2"
+					  begin="aniStep15.end + 2;outline1.click;outline2.click;"/>
+					  
+					<animate id=""
+					  attributeName="filter" 
+					  attributeType="CSS"
+					  to="url(#blinkerGlow)"
+					  repeatCount="2"
+					  dur="0.3s"
+					  begin="aniStep15.end + 2;outline1.click;outline2.click;click"/>
+				</path>
+							
+				<path d="M930,295
+						  l-10,1
+						  q-14,18 -30,-1
+						  l-105,3
+						  m10,-5
+						  l95,-3
+						  m0,-5
+						  l-80,3
+						  m110,2
+						  l13,0
+						  m3,-6
+						  l-14,0
+						  
+						  M1038,279
+						  l9,0
+						  q2,10 1,16
+						  c-6,-2 -6,-2 -10,-16
+						  
+						  M1049,295
+						  q-1,-2 -5,-2
+						  m-3,-5
+						  l9,0
+						  m-1,-6
+						  l-9,0"
+				style="stroke: #FFF; stroke-width:3;fill:none;opacity:0.5;filter:none;">
+					<animate id=""
+					  attributeName="stroke" 
+					  attributeType="CSS"
+					  to="#F30"
+					  dur="0.3s"
+					  repeatCount="2"
+					  begin="aniStep15.end + 2;outline1.click;outline2.click;click"/>
+					  
+					<animate id=""
+					  attributeName="filter" 
+					  attributeType="CSS"
+					  to="url(#blinkerGlow)"
+					  repeatCount="2"
+					  dur="0.3s"
+					  begin="aniStep15.end + 2;outline1.click;outline2.click;click"/>
+					  
+					<animate id=""
+					  attributeName="opacity" 
+					  attributeType="CSS"
+					  to="1"
+					  repeatCount="2"
+					  dur="0.3s"
+					  begin="outline1.click;outline2.click;click"/>
+				</path>			
+			</g>
+					
+			<path d="M892,280
+					  a14,16 -15 1,0 26,0z"
+			style="stroke: #DDD; stroke-width:1;fill:#F40;opacity:0.5;filter:url(#glow);">
+				<!-- <animate id=""
+				  attributeName="fill" 
+				  attributeType="CSS"
+				  to="#F40"
+				  dur="0.5s"
+				  repeatCount="0"
+				  begin="outline.click+0.8;click+0.8"/> -->
+			</path>
+			
+			<g id="rearLicensePlate">
+				<path d="M950,279
+						  q40,0 79,-1
+						  q3,25 -5,49
+						  q-33,3 -64,3
+						  q-7,-25 -10,-51"
+				style="stroke: #FFF; stroke-width:1;fill:none;filter:url(#glow);opacity:0.3"/>
+			</g>
+			
+			<g id="rearBumper">
+				<path d="M768,437
+						  l70,-12
+						  c30,-40 30,-40 80,-45
+						  l140,-10
+						  q0,40 -10,59
+						  q-80,35 -275,40
+						  l-4,-32"
+				style="stroke: #222; stroke-width:0;fill:#3F3F3F;"/>
+			</g>
+			
+			<g id="rearMeshLeft">
+				<path d="M778,433
+						  l20,-4
+						  l0,-22
+						  l-21,5
+						  l1,21"
+				style="stroke: #333; stroke-width:1;fill:#333;"/>
+			</g>
+			
+			<g id="rearBumperShadows">
+				<path d="M838,425
+						  c8,10 12,10 35,10
+						  c47,-3 42,0 78,-45
+						  l-70,6
+						  q-25,2 -44,29"
+				style="stroke: #222; stroke-width:1;fill:#222;filter:url(#glow);opacity:0.8;"/>
+				<path d="M854,455
+						  q35,-1 50,-5
+						  c30,-7 50,-30 70,-33
+						  q25,-4 50,-5
+						  c10,0 17,5 20,19
+						  l5,-3
+						  q5,-20 4,-37
+						  q-7,-6 -20,1
+						  q-25,-5 -50,3
+						  q-8,-5 -20,3
+						  c-60,60 -60,50 -109,58"
+				style="stroke: #1C1C1C; stroke-width:1;fill:#1C1C1C;filter:url(#glow);opacity:0.8;"/>	
+			</g>
+			
+			<g id="exhaustTipsLeft">
+				<path d="M880,429
+						  l25,0
+						  c16,0 16,-32 1,-30
+						  l-25,1
+						  q-22,16 -1,29"
+				style="stroke: #2F2F2F; stroke-width:1;fill:#2F2F2F;opacity:0.7;"/>			
+				<path d="M896,419
+						  a11,14 0 1,1 21,-10"
+				style="stroke: #1C1C1C; stroke-width:1;fill:#1C1C1C;"/>			
+				<path d="M896,419
+						  a11,14 0 1,0 21,-10"
+				style="stroke: #666; stroke-width:1;fill:none;"/>
+				
+				
+				<path d="M855,432
+						  l22,0
+						  c16,0 16,-32 1,-30
+						  l-21,1
+						  q-16,16 -2,29"
+				style="stroke: #2F2F2F; stroke-width:1;fill:#2F2F2F;opacity:0.7;"/>			
+				<path d="M868,422
+						  a11,14 0 1,1 21,-10"
+				style="stroke: #1C1C1C; stroke-width:1;fill:#1C1C1C;"/>			
+				<path d="M868,422
+						  a11,14 0 1,0 21,-10"
+				style="stroke: #666; stroke-width:1;fill:none;"/>
+			</g>
+			
+			<animate id="aniStep8"
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="1"
+				  dur="1s"
+				  fill="freeze"
+				  begin="aniStep7.end"/> 
+		</g>
+		
+		<g id="allGlows" style="opacity:0">
+			<path d="M140,295
+					  c100,-10 400,-15 470,25
+					  q12,-10 60,-35
+					  q-270,-25 -540,0z"
+			style="stroke: #FFF; stroke-width: 1;fill:#FFF;filter:url(#shadow);opacity:0.4;">
+			</path>
+			
+			<path d="M636,305
+					  q90,-19 124,70
+					  l105,-95
+					  l-60,30
+					  q-75,0 -135,-25"
+			style="stroke: #FFF; stroke-width: 1;fill:#FFF;filter:url(#shadow);opacity:0.3;">
+			</path>
+			
+			<path d="M460,180
+					  c150,-45 380,15 520,85
+					  l-50,0
+					  c-120,-50 -320,-125 -470,-85"
+			style="stroke: #FFF; stroke-width: 1;fill:#FFF;filter:url(#blinkerGlow);opacity:0.52;">				
+			</path>
+						
+			<path d="M570,250
+					  q100,-30 315,15
+					  l40,0
+					  q-240,-50 -355,-15"
+			style="stroke: #FFF; stroke-width: 1;fill:#FFF;filter:url(#blinkerGlow);opacity:0.4;">
+			</path>
+			
+			<path d="M300,405
+					  q100,10 255,0
+					  l-25,-10
+					  q-70,-10 -230,10"
+			style="stroke: #FFF; stroke-width: 1;fill:#FFF;filter:url(#blinkerGlow);opacity:0.4;">
+			</path>
+			
+			<path d="M780,380
+					  l270,-20
+					  c-10,-18 -10,-18 -25,-20
+					  l-150,12
+					  c-20,0 -60,20 -80,18
+					  q-15,0 -15,10"
+			style="stroke: #FFF; stroke-width: 1;fill:#FFF;filter:url(#blinkerGlow);opacity:0.3;">
+			</path>
+			
+			<path d="M800,440
+					  c120,0 110,0 160,-55
+					  q-80,40 -160,55"
+			style="stroke: #FFF; stroke-width: 1;fill:#FFF;filter:url(#blinkerGlow);opacity:0.2;">
+			</path>			
+			
+			<animate id="aniStep14"
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="0.25"
+				  dur="1s"
+				  fill="freeze"
+				  begin="aniStep13.end"/>
+		</g>
+		
+		<g id="allShadows" style="opacity:0">
+			<path d="M443,258
+				  l122,-5
+				  q130,-30 330,15				  
+				  l-150,15
+				  q-50,-20 -100,-25
+				  l-150,-8"
+			style="stroke: #000; stroke-width: 1;fill:#000;filter:url(#shadow);opacity:0.06;">
+			</path>
+			<path d="
+				  M895,270
+				  l153,0
+				  q5,33 -4,72
+				  c-140,-10 -250,30 -275,30
+				  l110,-95"
+			style="stroke: #000; stroke-width: 1;fill:#000;filter:url(#shadow);opacity:0.18;">
+			</path> 
+			
+			<path d="M460,180
+				  c80,-20 230,-10 450,80
+				  q-130,-30 -270,-25
+				  l75,-18
+				  q-115,-58 -255,-30"
+			style="stroke: #000; stroke-width: 1;fill:#000;filter:url(#shadow);opacity:0.12;">
+			</path>
+			
+			<path d="M123,445
+					  c-50,-155 60,-165 83,-129
+					  l-1,5
+					  c-43,-50 -127,12 -70,122"
+			style="stroke: #000; stroke-width: 1;fill:#000;filter:url(#glow);opacity:0.2;">
+			</path>
+			<path d="M205,320
+					  q25,10 38,85
+					  q280,-32 325,0
+					  l-20,47
+					  l50,0
+					  c-45,-115 60,-170 115,-127
+					  q45,30 55,110
+					  l8,0
+					  q-10,-80 -55,-113
+					  q-45,-33 -90,-10
+					  c-40,10 -80,-10 -100,-10
+					  c-30,-10 -300,-10 -330,7"
+			style="stroke: #000; stroke-width: 1;fill:#000;filter:url(#blinkerGlow);opacity:0.12;">
+			</path>
+			<path d="M243,405
+				  q160,15 320,2
+				  l-8,28
+				  l-315,2"
+			style="stroke: #000; stroke-width: 1;fill:#000;filter:url(#blinkerGlow);opacity:0.25;">
+			</path>
+			
+			<path d="
+				  M775,435
+				  l280,-30
+				  l0,-35
+				  l-290,15
+				  q10,25 10,50"
+			style="stroke: #000; stroke-width: 1;fill:#000;filter:url(#shadow);opacity:0.2;">
+			</path> 
+			
+			<path d="M950,279
+					  q40,0 79,-1
+					  l-10,4
+					  l-68,2z"
+			style="stroke: #000; stroke-width:1;fill:#000;opacity:0.7;"/>
+			
+			<path d="M1029,278
+					  q2,24 -5,48
+					  l-5,-44"
+			style="stroke: #000; stroke-width:1;fill:#000;opacity:0.2;"/>
+			
+			<animate id="aniStep13"
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="1"
+				  dur="1s"
+				  fill="freeze"
+				  begin="aniStep12.end"/>
+		</g>
+		
+		
+		
+		<g id="rearSpoiler" style="opacity:0">
+			<path d="M1035,265
+					  l10,4
+					  l4,-12
+					  q-6,-10 -20,-8
+					  l-5,10z"
+			style="stroke: #777; stroke-width:1;fill:#777;"/>
+			<path d="M1028,262
+					  l10,4
+					  l3,-10
+					  q-6,-8 -12,-7
+					  l-5,10z"
+			style="stroke: #333; stroke-width:1;fill:#333;opacity:0.7"/>
+			<path d="M900,275
+					  q20,-13 40,-18
+					  c50,-8 90,-4 100,0
+					  l-5,-10
+					  c-20,-3 -47,-6 -98,6
+					  c-15,3 -45,15 -52,13"
+			style="stroke: #333; stroke-width:1;fill:#333;"/>
+			<path d="M900,275
+					  q20,-13 40,-18
+					  l-5,-3
+					  c-15,3 -45,15 -52,13"
+			style="stroke: #777; stroke-width:1;fill:#777;"/>
+			
+			<animate id="aniStep9"
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="1"
+				  dur="1s"
+				  fill="freeze"
+				  begin="aniStep8.end"/> 
+		</g>
+		
+		<g id="signature" transform="scale(0.7),translate(400,250)">
+			<path d="M810,515
+					  q-35,25 -50,50
+					  c50,-10 50,25 0,35
+					  
+					  M828,550
+					  c-35,-20 -25,59 5,15
+					  c3,-13 -20,-35 2,3
+					  q2,5 5,2
+					  
+					  M848,565
+					  c-15,-30 10,-30 12,-10
+					  c-10,-30 12,-27 15,-2
+					  
+					  M875,530
+					  c20,-15 -15,-15 15,-3
+					  c-11,6 3,27 14,5
+					  
+					  M927,503
+					  c-35,-20 -25,59 5,15
+					  c3,-13 -20,-35 2,3
+					  q2,5 5,2
+					  
+					  M947,518
+					  c10,-65 -30,-65 10,-4
+					  
+					  M935,500
+					  l28,-25"
+			style="stroke: #888; stroke-width:2;fill:none;stroke-dasharray:1000;stroke-dashoffset: 1000;">
+				
+				<animate id=""
+					  attributeName="stroke-dashoffset" 
+					  attributeType="CSS"
+					  to="0"
+					  dur="12s"
+					  fill="freeze"
+					  begin="aniStep17.end"/> 
+			</path>
+		</g>
+		
+		<circle cx="" cy="-5" r="4" fill="#F7423B">
+			<animateMotion id="aniStep5" dur="5s" begin="aniStep4.end">
+			   <mpath xlink:href="#outlinePath"/>
+			</animateMotion>
+		</circle>
+	</g>
+</svg>

@@ -1,0 +1,216 @@
+<!--
+	The Jaguar F-Type
+	by Samrat Ambadekar <http://samratambadekar.com>
+	
+	There is nothing down there except... lines!
+-->
+
+<svg id="svg" width="120%" height="600"  xmlns="http://www.w3.org/2000/svg" version="1.1"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+	<g transform="translate(100,0),scale(1.0)">
+		<g id="leftRearTyreOutline" style="visibility:hidden;opacity:0">
+			<ellipse cx="670" cy="410" rx="73" ry="92"
+			transform="rotate(-10,670,410)"
+			style="stroke: #444; stroke-width: 0.8;fill:#444;"/>
+			
+			<ellipse cx="674" cy="410" rx="52" ry="70"
+			transform="rotate(-10,674,410)"
+			style="stroke: #444; stroke-width: 0;fill:#333;"/>
+			
+			<ellipse cx="674" cy="410" rx="55" ry="72"
+			transform="rotate(-10,674,410)"
+			style="stroke: #C0C0C0; stroke-width: 6;fill:none;"/>
+			
+			<ellipse cx="670" cy="410" rx="63" ry="81"
+			transform="rotate(-10,670,410)"
+			style="stroke: #D3D3D3; stroke-width: 6;fill:none;"/>
+			
+			<ellipse cx="670" cy="410" rx="57" ry="75"
+			transform="rotate(-10,670,410)"
+			style="stroke: #969696; stroke-width: 6;fill:none;"/>
+
+			<ellipse cx="680" cy="410" rx="24" ry="30"
+			transform="rotate(-10,680,410)"
+			style="stroke: #444; stroke-width: 0;fill:#D3D3D3;"/>
+			
+			<ellipse cx="674" cy="410" rx="19" ry="23"
+			transform="rotate(-10,674,410)"
+			style="stroke: #444; stroke-width: 0;fill:#C0C0C0;"/>
+			
+			<animate id=""
+				  attributeName="visibility" 
+				  attributeType="XML"
+				  to="visible"
+				  dur="0s"
+				  fill="freeze"
+				  begin="5.3s"/> 
+			<animate id=""
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="0.7"
+				  dur="0.5s"
+				  fill="freeze"
+				  begin="5.3s"/> 
+		</g>
+		
+		<g id="leftFrontTyre" style="visibility:hidden;opacity:0">
+			<ellipse id="leftFrontTyreOutline" cx="185" cy="389" rx="67" ry="80"
+			transform="rotate(-10,185,389)"
+			style="stroke: #444; stroke-width: 0.8;fill:#444;">
+			
+			</ellipse>
+			
+			<ellipse cx="186" cy="390" rx="61" ry="74"
+			transform="rotate(-10,186,390)"
+			style="stroke: #444; stroke-width: 0;fill:#C0C0C0;">
+			
+			</ellipse>
+			
+			<ellipse cx="186" cy="390" rx="55" ry="68"
+			transform="rotate(-10,186,390)"
+			style="stroke: #444; stroke-width: 0;fill:#969696;">
+			
+			</ellipse>
+			
+			<ellipse cx="189" cy="390" rx="53" ry="66"
+			transform="rotate(-10,189,390)"
+			style="stroke: #444; stroke-width: 0;fill:#C0C0C0;">
+			
+			</ellipse>
+			
+			<ellipse cx="191" cy="390" rx="50" ry="63"
+			transform="rotate(-10,191,390)"
+			style="stroke: #444; stroke-width: 0;fill:#333;">
+			
+			</ellipse>
+			
+			<ellipse cx="195" cy="390" rx="22" ry="27"
+			transform="rotate(-10,195,390)"
+			style="stroke: #444; stroke-width: 0;fill:#D3D3D3;">
+			
+			</ellipse>
+			
+			<ellipse cx="190" cy="390" rx="19" ry="22"
+			transform="rotate(-10,190,390)"
+			style="stroke: #444; stroke-width: 0;fill:#C0C0C0;">
+			
+			</ellipse>
+			
+			<animate id=""
+				  attributeName="visibility" 
+				  attributeType="XML"
+				  to="visible"
+				  dur="0s"
+				  fill="freeze"
+				  begin="5.3s"/> 
+			<animate id=""
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="0.7"
+				  dur="0.5s"
+				  fill="freeze"
+				  begin="5.3s"/> 
+		</g>
+		
+		<g id="outline1">
+			<path id="outlinePath" d="M110,430 
+					q-15,-70 -12,-85 
+					c0,-95 175,-75 220,-85
+					q80,-55 140,-80
+					c70,-20 180,-40 350,5
+					q120,30 240,85
+					c10,70 -20,60 10,92
+					q0,40 -10,67
+					q-80,35 -275,40
+					c-20,-190 -120,-160 -140,-150
+					c-60,30 -50,90 -32,138
+					l-15,10
+					l-348,-23
+					c16,-80 -30,-150 -78,-140
+					c-45,10 -55,80 -30,138
+					l-7,1
+					c-13,0 -25,-15 -13,-14"
+				style="stroke: #888; stroke-width: 1;fill:url(#linearGradientGreyRed);cursor:pointer;stroke-dasharray: 3000;stroke-dashoffset: 3000;"><animate id=""
+					  attributeName="stroke-dashoffset" 
+					  attributeType="XML"
+					  to="0"
+					  dur="5.5s"
+					  fill="freeze"
+					  begin="0s"/> 
+			</path>
+		</g>
+		
+		<g id="rearSpoiler" style="visibility:hidden;opacity:0">
+			<path d="M1035,265
+					  l10,4
+					  l4,-12
+					  q-6,-10 -20,-8
+					  l-5,10z"
+			style="stroke: #777; stroke-width:1;fill:none;"/>
+			<path d="M1028,262
+					  l10,4
+					  l3,-10
+					  q-6,-8 -12,-7
+					  l-5,10z"
+			style="stroke: #333; stroke-width:1;fill:none;opacity:0.7"/>
+			<path d="M900,275
+					  q20,-13 40,-18
+					  c50,-8 90,-4 100,0
+					  l-5,-10
+					  c-20,-3 -47,-6 -98,6
+					  c-15,3 -45,15 -52,13"
+			style="stroke: #333; stroke-width:1;fill:none;"/>
+			<path d="M900,275
+					  q20,-13 40,-18
+					  l-5,-3
+					  c-15,3 -45,15 -52,13"
+			style="stroke: #777; stroke-width:1;fill:none;"/>
+			
+			<path d="M744,172
+					  q18,-4 24,-10
+					  l10,0
+					  c0,10 0,10 5,19
+					  q-4,2 -39,-9"
+			style="stroke: #888; stroke-width: 1;fill:none;"/>
+			<animate id=""
+				  attributeName="visibility" 
+				  attributeType="XML"
+				  to="visible"
+				  dur="0s"
+				  fill="freeze"
+				  begin="5.3s"/> 
+			<animate id=""
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="1"
+				  dur="0.5s"
+				  fill="freeze"
+				  begin="5.3s"/> 
+		</g>
+		
+		<text x="500" y="600" style="visibility:hidden;opacity:0"
+			font-family="Open Sans" font-size="30" fill="#888" >
+			
+			
+			<animate id=""
+				  attributeName="visibility" 
+				  attributeType="XML"
+				  to="visible"
+				  dur="0s"
+				  fill="freeze"
+				  begin="6.3s"/> 
+			<animate id=""
+				  attributeName="opacity" 
+				  attributeType="CSS"
+				  to="1"
+				  dur="0.5s"
+				  fill="freeze"
+				  begin="6.3s"/> 
+		</text>
+		<circle cx="" cy="-5" r="5" fill="red">
+			<animateMotion dur="5s" repeatCount="0">
+			   <mpath xlink:href="#outlinePath"/>
+			</animateMotion>
+		</circle> 
+	</g>
+</svg>

@@ -1,0 +1,182 @@
+<svg id="svg" width="100%" height="790"  xmlns="http://www.w3.org/2000/svg" version="1.1">
+	<defs>
+		<linearGradient id="linearGradientGreyLR"
+			x1="0%" y1="0%"
+			x2="100%" y2="0%"
+			spreadMethod="pad">
+			<stop offset="40%" stop-color="#555" stop-opacity="1"/>
+			<stop offset="100%" stop-color="#666" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="linearGradientGreyButtons"
+			x1="0%" y1="0%"
+			x2="100%" y2="0%"
+			spreadMethod="pad">
+			<stop offset="30%" stop-color="#666" stop-opacity="1"/>
+			<stop offset="100%" stop-color="#7f7f7f" stop-opacity="1"/>
+		</linearGradient>
+		<filter id="shadow" x="-0.15" y="-0.2" width="120%" height="200%">
+			<feGaussianBlur in="SourceGraphic" stdDeviation="8" />
+		</filter>
+	</defs>
+	<g transform="scale(1.2)">
+		<g id="outline">
+			<path d="M50,110 
+					l230,-60
+					q15,-5 30,5
+					l180,100
+					q5,2 3,15
+					l-25, 220
+					q0,8 -10,12
+					l-190,80
+					q-23,5 -40,-8
+					l-180,-130
+					q-6,-6 -6,-15
+					l0,-210
+					q0,-7 8,-9"
+			style="stroke: #888; stroke-width: 1;fill:url(#linearGradientGreyLR);"/>
+			/*
+			a3,2 -3 0,1 -25,5
+			l-30,-30 q-2,-5 -1.5,-13"
+			style="stroke: #888; stroke-width: 0; fill:url(#myLinearGradientLR45);"/>
+			<path d="M260,321 l0,35 a3,2 -3 0,1 -25,5
+			l-30,-30"
+			style="stroke: #888; stroke-width: 0; fill:url(#myLinearGradientLR45);"/>
+			*/
+		</g> //056AAA
+		<g id="outlineShadow">
+			<path d="M238,397 
+			
+					l230,0
+					
+					q0,8 -10,12
+					l-190,80
+					q-23,5 -40,-8
+					l-180,-130
+					q-6,-6 -6,-15"
+			style="stroke: #888; stroke-width: 1;fill:url(#linearGradientGreyLR);filter: url(#shadow);"/>
+			/*
+			a3,2 -3 0,1 -25,5
+			l-30,-30 q-2,-5 -1.5,-13"
+			style="stroke: #888; stroke-width: 0; fill:url(#myLinearGradientLR45);"/>
+			<path d="M260,321 l0,35 a3,2 -3 0,1 -25,5
+			l-30,-30"
+			style="stroke: #888; stroke-width: 0; fill:url(#myLinearGradientLR45);"/>
+			*/
+		</g> //056AAA
+		<g id="topOuter">
+			<path d="M50,110 
+					l230,-60
+					q15,-5 30,5
+					l180,100
+					q8,9 -8,15
+					l-200,65
+					q-25,10 -53,-5
+					l-180,-110
+					q-11,-6 2,-10"
+			style="stroke: #999; stroke-width: 0.3;fill:#8c8c8c;"/>
+		</g>
+		<g id="topInner">
+			<path d="M54,114 
+					l226,-60
+					q15,-5 30,5
+					l174,97
+					q8,7 -7,12
+					l-200,65
+					q-20,6 -44,-5
+					l-174,-107
+					q-9,-5 -3,-8"
+			style="stroke: #777; stroke-width: 0.3;fill:#838383;"/>
+		</g>
+		<g id="topInnerShadow">
+			<path d="M54,114 
+					l226,-60
+					q15,-5 30,5
+					l174,97
+					q8,7 -7,12
+					q6,-3 5,-7
+					l-180,-102
+					q-8,-5 -20,-1
+					l-220,59
+					q-7,3 -2,5
+					l-4,-3
+					q-2,0 -2,-5"				
+			style="stroke: #999; stroke-width: 0.3;fill:#444;"/>
+		</g>
+		<g id="controlsOutline">
+			<path d="M300,180
+					 l70,-23
+					 q7,-3 20,5
+					 l45,24
+					 l-20,234
+					 l-90,38
+					 l14,-241
+					 l-45,-24
+					 q-10,-8 6,-13"
+			style="stroke: #555; stroke-width: 0.9;fill:#6f6f6f;"/>
+			<path d="M300,180
+					 l70,-23
+					 q7,-3 20,5
+					 l45,24
+					 l-96,30
+					 l-45,-23
+					 q-10,-8 6,-13"
+			style="stroke: #999; stroke-width: 0.3;fill:#919191;"/>
+			
+		</g>
+		<g id="controlsOutlineShadow">
+			<path d="M330,216				 
+					 l-38,-20
+					 q-6,-4 -2,-10
+					 q0,3 3,6
+					 l41,22
+					 l-5,2"
+			style="stroke: #999; stroke-width: 0.3;fill:#444;"/>
+		</g>
+		<g id="controlsButtons">
+			<ellipse id="onButton" cx="388" cy="260" rx="10" ry="15"
+			transform="rotate(20,388,260)"
+			style="stroke: #444; stroke-width: 0.8;fill:url(#linearGradientGreyButtons);"/>
+			
+			<ellipse id="middleButton" cx="384" cy="315" rx="10" ry="15"
+			transform="rotate(20,384,315)"
+			style="stroke: #444; stroke-width: 0.8;fill:url(#linearGradientGreyButtons);"/>
+			
+			<ellipse id="offButton" cx="380" cy="370" rx="10" ry="15"
+			transform="rotate(20,380,370)"
+			style="stroke: #444; stroke-width: 0.8;fill:url(#linearGradientGreyButtons);"/>
+		</g>
+		<g id="controlsLight">
+			<path d="M388,201				 
+					 l-14,-8
+					 l5,-2
+					 l14,8
+					 l-2,25
+					 l-5,2
+					 l2,-25"
+				style="stroke: #999; stroke-width: 0.3;fill:#FF5800;">
+				<animate attributeName="fill" 
+                      attributeType="XML"
+                      to="#00FF00"
+                      dur="0.2s"
+					  fill="freeze"
+					  begin="onButton.click"/>
+				<animate attributeName="fill" 
+                      attributeType="XML"
+                      to="#FFFF00"
+                      dur="0.2s"
+					  fill="freeze"
+					  begin="middleButton.click"/>
+				<animate attributeName="fill" 
+                      attributeType="XML"
+                      to="#FF5800"
+                      dur="0.2s"
+					  fill="freeze"
+					  begin="offButton.click"/>
+			</path>
+		</g>
+		<text x="360" y="500" transform="rotate(-23,360,500)"
+			  style="fill: #BBB; stroke: #BBB;  font-size: 20px;">
+			
+		</text>   
+	</g>
+</svg>
