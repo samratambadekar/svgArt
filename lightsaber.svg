@@ -1,0 +1,118 @@
+<svg id="svg" width="100%" height="100%"  xmlns="http://www.w3.org/2000/svg" version="1.1">
+	<defs>
+		<filter id="glow" x="-500%" y="-500%" width="1000%" height="1000%">
+			<feGaussianBlur in="SourceGraphic" stdDeviation="16" />
+		</filter>
+		<filter id="glow2" x="-500%" y="-500%" width="1000%" height="1000%">
+			<feGaussianBlur in="SourceGraphic" stdDeviation="70" />
+		</filter>
+	</defs>
+	<rect rx="0" ry="0" width="100%" height="100%"  style="fill:#111"></rect>
+	<g transform="scale(0.5),translate(300,100)">
+		<g id="hilt" transform="scale(0.7),rotate(90,400,700)">
+			<path d="m400,1000 
+					 l70,0
+					 l0,-18
+					 l22,0
+					 l0,-150
+					 l-22,0
+					 l0,-180
+					 l13,0
+					 l0,-100
+					 l-13,0
+					 l0,-130
+					 q-20,0 -25,40
+					 l-45,0
+					 l0,370
+					 l-22,0
+					 l0,150
+					 l22,0
+					 l0,18"
+			style="stroke: #888; stroke-width: 1;fill:#333;">
+			</path>
+			
+		</g>
+		<g id="button1" transform="scale(0.7)">
+			<circle cx="610" cy="720" r="10"
+			style="stroke: #2FF923; stroke-width: 1;fill:#2FF923;cursor: pointer">
+			</circle>
+		</g>
+		<g id="button2" transform="scale(0.7)">
+			<circle cx="610" cy="720" r="10"
+			style="stroke: #2FF923; stroke-width: 1;fill:#2FF923;cursor: pointer;">
+			</circle>
+			<animate id=""
+			  attributeName="visibility" 
+			  attributeType="CSS"
+			  to="visible"
+			  dur="0.1s"
+			  fill="freeze"
+			  begin="button1.click"/>
+			<animate id=""
+			  attributeName="visibility" 
+			  attributeType="CSS"
+			  to="hidden"
+			  dur="0.1s"
+			  fill="freeze"
+			  begin="button2.click"/>
+		</g>
+		<g id="light2" transform="scale(0.7)">
+			<path d="m635,715 
+					 l0,0
+					 q0,18 0,36
+					 l0,0"
+			style="stroke:#2FF923; stroke-width: 1;fill:#2FF923;filter:url(#glow2);">
+				<animate id=""
+				  attributeName="d" 
+				  attributeType="XML"
+				  to="m635,715 
+					 l2000,0
+					 q60,18 0,36
+					 l-2000,0"
+				  dur="0.2s"
+				  fill="freeze"
+				  begin="button1.click;1.5s"/>
+				  
+				<animate id=""
+				  attributeName="d" 
+				  attributeType="XML"
+				  to="m635,715 
+					 l0,0
+					 q0,18 0,36
+					 l0,0"
+				  dur="0.2s"
+				  fill="freeze"
+				  begin="button2.click"/>
+			</path>			
+		</g>
+		<g id="light" transform="scale(0.7)">
+			<path d="m635,715 
+					 l0,0
+					 q0,18 0,36
+					 l0,0"
+			style="stroke:#2FF923; stroke-width: 1;fill:#2FF923;filter:url(#glow);">
+				<animate id=""
+				  attributeName="d" 
+				  attributeType="XML"
+				  to="m635,715 
+					 l2000,0
+					 q60,18 0,36
+					 l-2000,0"
+				  dur="0.2s"
+				  fill="freeze"
+				  begin="button1.click;1.5s"/>
+				  
+				<animate id=""
+				  attributeName="d" 
+				  attributeType="XML"
+				  to="m635,715 
+					 l0,0
+					 q0,18 0,36
+					 l0,0"
+				  dur="0.2s"
+				  fill="freeze"
+				  begin="button2.click"/>
+			</path>			
+		</g>
+	</g>
+</svg>
