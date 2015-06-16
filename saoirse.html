@@ -1,0 +1,1067 @@
+<!--
+	Saoirse: Song of the Sea
+	by Samrat Ambadekar <http://samratambadekar.com>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Song of the Sea</title>
+		<style>
+			body,html {
+				margin:0;
+				padding: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<audio autoplay>
+			<source src="song.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+<svg id="svg" width="100%" height="1000"  xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+		<linearGradient id="linearGradientSea"
+			x1="0%" y1="0%"
+			x2="0%" y2="100%"
+			spreadMethod="pad">
+			<stop offset="0%" stop-color="#04587B" stop-opacity="1"/>
+			<stop offset="20%" stop-color="#032E69" stop-opacity="1"/>
+		</linearGradient>
+		<linearGradient id="linearGradientWave"
+			x1="0%" y1="0%"
+			x2="0%" y2="100%"
+			spreadMethod="pad">
+			<stop offset="0%" stop-color="#0571B3" stop-opacity="1"/>
+			<stop offset="70%" stop-color="#04587B" stop-opacity="1"/>
+		</linearGradient>
+		<filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+			<feGaussianBlur in="SourceGraphic" stdDeviation="16" />
+		</filter>
+		<filter id="glow1" x="-50%" y="-50%" width="200%" height="200%">
+			<feGaussianBlur in="SourceGraphic" stdDeviation="3" />
+		</filter>
+		<filter id="glow2" x="-50%" y="-50%" width="200%" height="200%">
+			<feGaussianBlur in="SourceGraphic" stdDeviation="70" />
+		</filter>
+	</defs>
+	<rect rx="0" ry="0" width="100%" height="100%" style="fill:#032842"></rect>
+	<g transform="scale(1),translate(0,0)">
+		<g id="moon" style="opacity:0" transform="translate(600,-100),scale(0.7)">
+			<path d="m400,350
+					 c10,-330 490,-330 500,0
+					 c-10,330 -490,330 -500,0"
+				style="stroke: #FFF; stroke-width: 1;fill:#EEE;opacity: 0.7">
+			</path>
+			<circle cx="650" cy="350" r="245" style="stroke: #FFF; stroke-width: 10;fill:#EEE;opacity: 0;filter: url(#glow2)">
+				<animate id=""
+					  attributeName="opacity" 
+					  attributeType="CSS"
+					  to="0.8"
+					  dur="1s"
+					  fill="freeze"
+					  begin="aniStep4.end+7"/> 
+			</circle>
+			<circle cx="650" cy="350" r="945" style="stroke: #FFF; stroke-width: 10;fill:#EEE;opacity: 0;filter: url(#glow2)">
+				<animate id=""
+					  attributeName="opacity" 
+					  attributeType="CSS"
+					  to="0.075"
+					  dur="1s"
+					  fill="freeze"
+					  begin="aniStep4.end+7.5"/> 
+			</circle>
+			<path d="m700,150
+					 l70,40
+					 l50,100
+					 l-100,20
+					 l-20,-90
+					 l-60,20
+					 l-10,-50
+					 l70,0z"
+				style="stroke: #FFF; stroke-width: 0;fill:#005495;opacity: 0.30;filter: url(#glow);">
+			</path>
+			<path d="m520,300
+					 l70,40
+					 l50,100
+					 l-130,30
+					 l-20,-90
+					 l-40,20z"
+				style="stroke: #FFF; stroke-width: 0;fill:#005495;opacity: 0.30;filter: url(#glow);">
+			</path>
+			<path d="m880,400
+					 l-10,40
+					 l-40,80
+					 l-60,50
+					 l-20,-10
+					 l-40,20z"
+				style="stroke: #FFF; stroke-width: 0;fill:#005495;opacity: 0.30;filter: url(#glow);">
+			</path>
+			
+				<animate id="aniStep4"
+					  attributeName="opacity" 
+					  attributeType="CSS"
+					  to="1"
+					  dur="3s"
+					  fill="freeze"
+					  begin="aniStep2.end + 7"/> 
+		</g>
+		
+		<g id="rock" style="opacity:0" transform="translate(250,120),scale(1)">
+			<path d="m400,550
+					 c10,-280 390,-280 400,0"
+				style="stroke: #07031A; stroke-width: 1;fill:#07031A;opacity: 1">
+			</path>
+			<path d="m410,550
+					 c10,-270 370,-270 380,0"
+				style="stroke: #1C5A99; stroke-width: 1;fill:none;opacity: 1">
+			</path>
+			<path d="m415,550
+					 c10,-265 365,-265 370,0"
+				style="stroke: #1C5A99; stroke-width: 1;fill:none;opacity: 1">
+			</path>
+			<path d="m500,550
+					 c15,-165 175,-165 200,0"
+				style="stroke: #1C5A99; stroke-width: 1;fill:none;opacity: 1">
+			</path>
+			
+			<path d="m500,367
+					 q145,35 140,150"
+				style="stroke: #1C5A99; stroke-width: 3;fill:none;opacity: 1">
+			</path>
+			<path d="m650,500
+					 q5,-35 70,-100"
+				style="stroke: #1C5A99; stroke-width: 3;fill:none;opacity: 1">
+			</path>
+			
+			
+			<path d="m600,400
+					 l7,-5
+					 l0,-8
+					 l8,3
+					 l8,-3
+					 l0,8
+					 l8,5
+					 l-10,2
+					 l-5,8
+					 l-5,-10z"
+				style="stroke: #594E5C; stroke-width: 2;fill:#3B283D;opacity: 0.8">
+			</path>
+			<path transform="rotate(50,700,430)" d="m700,430
+					 l7,-5
+					 l0,-8
+					 l8,3
+					 l8,-3
+					 l0,8
+					 l8,5
+					 l-10,2
+					 l-5,8
+					 l-5,-10z"
+				style="stroke: #594E5C; stroke-width: 2;fill:#3B283D;opacity: 0.8">
+			</path>
+			
+			<path d="m500,430
+					 l5,-6
+					 l2,0
+					 l3,5
+					 l-1,2
+					 l-9,0z"
+				style="stroke: #594E5C; stroke-width: 2;fill:#3B283D;opacity: 0.8">
+			</path>
+			<path d="m520,410
+					 l5,-6
+					 l2,0
+					 l3,5
+					 l-1,2
+					 l-9,0z"
+				style="stroke: #594E5C; stroke-width: 2;fill:#3B283D;opacity: 0.8">
+			</path>
+			<path d="m515,420
+					 l5,-6
+					 l2,0
+					 l3,5
+					 l-1,2
+					 l-9,0z"
+				style="stroke: #594E5C; stroke-width: 2;fill:#3B283D;opacity: 0.8">
+			</path>
+			<path d="m525,430
+					 l5,-6
+					 l2,0
+					 l3,5
+					 l-1,2
+					 l-9,0z"
+				style="stroke: #594E5C; stroke-width: 2;fill:#3B283D;opacity: 0.8">
+			</path>
+			<path d="m480,430
+					 l5,-6
+					 l2,0
+					 l3,5
+					 l-1,2
+					 l-9,0z"
+				style="stroke: #0571B3; stroke-width: 2;fill:#00205D;opacity: 0.6">
+			</path>
+			<path d="m495,420
+					 l5,-6
+					 l2,0
+					 l3,5
+					 l-1,2
+					 l-9,0z"
+				style="stroke: #0571B3; stroke-width: 2;fill:#00205D;opacity: 0.6">
+			</path>
+			<path d="m510,405
+					 l5,-6
+					 l2,0
+					 l3,5
+					 l-1,2
+					 l-9,0z"
+				style="stroke: #0571B3; stroke-width: 2;fill:#00205D;opacity: 0.6">
+			</path>
+			<path d="m510,440
+					 l5,-6
+					 l2,0
+					 l3,5
+					 l-1,2
+					 l-9,0z"
+				style="stroke: #0571B3; stroke-width: 2;fill:#00205D;opacity: 0.6">
+			</path>
+			
+				<animate id="aniStep2"
+					  attributeName="opacity" 
+					  attributeType="CSS"
+					  to="1"
+					  dur="2s"
+					  fill="freeze"
+					  begin="aniStep1.end"/> 
+		</g>
+		
+		<g id="sea" style="opacity: 0" transform="translate(0,0),scale(1)">
+			<rect x="0" y="600" width="2200" height="700" style="fill:url(#linearGradientSea);"></rect>
+			<path d="m0,600
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25
+					 l150,-25
+					 l170,25z"
+				style="stroke: #0571B3; stroke-width: 0;fill:url(#linearGradientWave);opacity: 1">
+			</path>
+			<path d="m0,600
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #0571B3; stroke-width: 1;fill:#0571B3;opacity: 1">
+			</path>
+			<path d="m200,610
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25
+					 l150,-25
+					 l170,25z"
+				style="stroke: #0571B3; stroke-width: 0;fill:url(#linearGradientWave);opacity: 1">
+			</path>
+			<path d="m200,610
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #0571B3; stroke-width: 1;fill:#0571B3;opacity: 1">
+			</path>
+			<path d="m430,610
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25
+					 l150,-25
+					 l170,25z"
+				style="stroke: #0571B3; stroke-width: 0;fill:url(#linearGradientWave);opacity: 1">
+			</path>
+			<path d="m430,610
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #0571B3; stroke-width: 1;fill:#0571B3;opacity: 1">
+			</path>
+			<path d="m620,600
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25
+					 l150,-25
+					 l170,25z"
+				style="stroke: #0571B3; stroke-width: 0;fill:url(#linearGradientWave);opacity: 1">
+			</path>
+			<path d="m620,600
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #0571B3; stroke-width: 1;fill:#0571B3;opacity: 1">
+			</path>
+			<path d="m800,610
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25
+					 l150,-25
+					 l170,25z"
+				style="stroke: #0571B3; stroke-width: 0;fill:url(#linearGradientWave);opacity: 1">
+			</path>
+			<path d="m800,610
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #0571B3; stroke-width: 1;fill:#0571B3;opacity: 1">
+			</path>
+			<path d="m1000,620
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25
+					 l150,-25
+					 l170,25z"
+				style="stroke: #0571B3; stroke-width: 0;fill:url(#linearGradientWave);opacity: 1">
+			</path>
+			<path d="m1000,620
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #0571B3; stroke-width: 1;fill:#0571B3;opacity: 1">
+			</path>
+			<path d="m1200,600
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25
+					 l150,-25
+					 l170,25z"
+				style="stroke: #0571B3; stroke-width: 0;fill:url(#linearGradientWave);opacity: 1">
+			</path>
+			<path d="m1200,600
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #0571B3; stroke-width: 1;fill:#0571B3;opacity: 1">
+			</path>
+			
+			<path d="m50,690
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #2571E3; stroke-width: 1;fill:#2571E3;opacity: 1">
+			</path>
+			<path d="m-100,630
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #2571E3; stroke-width: 1;fill:#2571E3;opacity: 1">
+			</path>
+			<path d="m250,640
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #2571E3; stroke-width: 1;fill:#2571E3;opacity: 1">
+			</path>
+			<path d="m500,680
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #2571E3; stroke-width: 1;fill:#2571E3;opacity: 1">
+			</path>
+			<path d="m850,640
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #2571E3; stroke-width: 1;fill:#2571E3;opacity: 1">
+			</path>
+			<path d="m1050,690
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #2571E3; stroke-width: 1;fill:#2571E3;opacity: 1">
+			</path>
+			<path d="m1250,640
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #2571E3; stroke-width: 1;fill:#2571E3;opacity: 1">
+			</path>
+			<path d="m1450,690
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #2571E3; stroke-width: 1;fill:#2571E3;opacity: 1">
+			</path>
+			<path d="m1650,640
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #2571E3; stroke-width: 1;fill:#2571E3;opacity: 1">
+			</path>
+			
+			<path d="m150,790
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #2571E3; stroke-width: 1;fill:#2571E3;opacity: 1">
+			</path>
+			<path d="m0,730
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #2571E3; stroke-width: 1;fill:#2571E3;opacity: 1">
+			</path>
+			<path d="m350,740
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #2571E3; stroke-width: 1;fill:#2571E3;opacity: 1">
+			</path>
+			<path d="m600,780
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #2571E3; stroke-width: 1;fill:#2571E3;opacity: 1">
+			</path>
+			<path d="m950,740
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #2571E3; stroke-width: 1;fill:#2571E3;opacity: 1">
+			</path>
+			<path d="m1150,790
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #2571E3; stroke-width: 1;fill:#2571E3;opacity: 1">
+			</path>
+			<path d="m1350,740
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #2571E3; stroke-width: 1;fill:#2571E3;opacity: 1">
+			</path>			
+			<path d="m1550,740
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #2571E3; stroke-width: 1;fill:#2571E3;opacity: 1">
+			</path>
+			<path d="m1750,790
+					 q95,-10 150,-50
+					 q65,40 170,50
+					 q-65,5 -170,-25
+					 q-65,25 -150,25"
+				style="stroke: #2571E3; stroke-width: 1;fill:#2571E3;opacity: 1">
+			</path>
+			
+				<animate id="aniStep1"
+					  attributeName="opacity" 
+					  attributeType="CSS"
+					  to="1"
+					  dur="4s"
+					  fill="freeze"
+					  begin="4s"/> 
+		</g>
+		
+		<g id="saoirse" style="opacity: 0" transform="translate(550,-50),scale(1)">
+			<g id="hair">
+				<path d="m234,220
+						  c5,-50 40,-70 74,-70
+						  c20,0 75,5 77,75
+						  c10,20 -10,70 -70,73
+						  q-30,0 -75,-8
+						  q7,-2 10,-7
+						  q-10,3 -22,0
+						  q15,-5 6,-63
+						  
+						  q50,0 75,-50
+						  q20,50 74,58"
+					style="stroke: #000; stroke-width: 1;fill:#000;opacity: 1">
+					
+				 <animate id=""
+					  attributeName="d" 
+					  attributeType="XML"
+					  to="m234,220
+						  c5,-50 40,-70 74,-70
+						  c20,0 75,5 77,75
+						  c10,20 -10,70 -70,73
+						  q-30,0 -75,-8
+						  q-15,-5 -20,-15
+						  q7,5 30,-2
+						  q-25,3 -60,-30
+						  q15,-5 -15,-33
+						  c20,0 35,-20 50,-20
+						  c-10,5 -30,0 -40,10
+						  c10,-20 30,-10 45,-20
+						  c-5,5 -20,-5 -30,0
+						  c20,-20 50,-10 80,-26"
+					  dur="0.5s"
+					  fill="freeze"
+					  begin="44s"/>  
+				</path>
+				
+				<path d="m175,210
+						  c20,0 35,-20 50,-20
+						  m-40,10
+						  c10,-20 30,-10 45,-20
+						  m-30,0
+						  c20,-20 50,-10 80,-26"
+					style="stroke: #FFF; stroke-width: 2;fill:none;opacity: 0;filter:url(#);">
+					
+					<animate id=""
+					  attributeName="opacity" 
+					  attributeType="CSS"
+					  to="0.5"
+					  dur="1s"
+					  fill="freeze"
+					  begin="45"/> 
+				</path>
+			</g>
+			
+			<g id="body">
+				<path d="m300,296
+						  l-10,10
+						  l-20,90
+						  q-5,50 -50,130
+						  c30,30 130,10 160,0
+						  c-30,-50 0,-110 -25,-180
+						  m10,40
+						  q25,15 50,0
+						  l0,-23
+						  c-40,-15 -93,-73 -98,-69
+						  l-17,2"
+					style="stroke: #888; stroke-width: 1;fill:#DEDEDE;opacity: 1">
+				</path>
+				<path d="m300,296
+						  c-40,5 -70,80 -50,100
+						  c20,25 60,-10 70,-40
+						  l-12,-15
+						  l-30,16
+						  q15,-30 10,-40"
+					style="stroke: #888; stroke-width: 1;fill:#DEDEDE;opacity: 1">
+				</path>
+				<path d="m283,302
+						  q35,45 54,5"
+					style="stroke: #888; stroke-width: 1;fill:none;opacity: 1">
+				</path>
+				
+				<path d="m308,342
+						  l4,-5
+						  q4,0 2,3
+						  l-2,3
+						  l7,-5
+						  q4,0 2,3
+						  l-7,6
+						  l7,-6
+						  q3,0 0,3
+						  q-1,3 -5,8
+						  l5,-6
+						  q2,1 0,3
+						  q0,2 -2,6"
+					style="stroke: #888; stroke-width: 1;fill:#EAD7C9;opacity: 1">
+				</path>
+				<path d="m415,364
+						  l5,-1
+						  q4,0 0,3
+						  l-5,2
+						  l10,-1
+						  q3,0 0,3
+						  l-10,2
+						  l9,-3
+						  q3,0 0,3
+						  l-9,4
+						  l7,-1
+						  q3,0 0,3
+						  l-7,2
+						  l4,4
+						  q1,0 -2,2
+						  l-3,-2"
+					style="stroke: #888; stroke-width: 1;fill:#EAD7C9;opacity: 1">
+				</path>
+			</g>
+			<g id="face">
+				<path d="m300,300
+						  q2,-5 2,-10
+						  
+						  c-40,0 -65,-40 -65,-65
+						  
+						  c5,-50 40,-60 70,-60
+						  c20,0 75,5 75,65
+						  
+						  c5,-7 7,0 3,7
+						  q-2,8 -7,12
+						  m4,-19
+						  
+						  c0,10 -10,55 -65,60
+						  
+						  q0,9 3,15
+						  q0,7 -3,-17
+						  m0,0
+						  q0,9 3,17
+						  q-10,5 -20,-5"
+					style="stroke: #888; stroke-width: 1;fill:#FCF2EE;opacity: 1">
+				</path>
+				<path d="m237,220
+						  c0,-5 -5,-5 -5,0
+						  q0,12 7,22"
+					style="stroke: #FCF2EE; stroke-width: 1;fill:#FCF2EE;opacity: 1">
+				</path>
+				
+				<circle cx="278" cy="255" r="20" style="stroke: #D6A09E; stroke-width: 1;fill:#D6A09E;opacity: 1;filter:url(#glow);">
+				</circle>
+				<circle cx="345" cy="255" r="20" style="stroke: #D6A09E; stroke-width: 1;fill:#D6A09E;opacity: 1;filter:url(#glow);">
+				</circle>
+			</g>
+			<g id="hair2">
+				<path d="m234,220
+						  q40,0 79,-55
+						  q20,40 70,63
+						  l3,0
+						  c0,-60 -40,-78 -74,-78
+						  c-20,0 -75,5 -77,75"
+					style="stroke: #000; stroke-width: 1;fill:#000;opacity: 1">
+				</path>
+			</g>
+			<g id="eyes">
+				<path d="m266,205
+						  q13,-8 25,-5"
+					style="stroke: #000; stroke-width: 2;fill:none;opacity: 1">
+				</path>
+				<path d="m266,235
+						  c-12,-28 30,-30 25,-5
+						  m-25,5
+						  c-9,-26 28,-30 25,-5
+						  m-12,7.5
+						  l3,-1"
+					style="stroke: #000; stroke-width: 1.2;fill:#FFF;opacity: 1">
+				</path>
+				<path d="m291,230
+						  q-10,12 -25,5"
+					style="stroke: #DDD; stroke-width: 1;fill:#FFF;opacity: 1">
+				</path>				
+				<circle cx="278" cy="225" r="8" style="stroke: #000; stroke-width: 1;fill:#000;opacity: 1;">
+				</circle>			
+				<circle cx="275" cy="221" r="2" style="stroke: #FFF; stroke-width: 1;fill:#FFF;opacity: 1;">
+				</circle>
+				
+				<path d="m333,202
+						  q13,-8 25,-5"
+					style="stroke: #000; stroke-width: 2;fill:none;opacity: 1">
+				</path>
+				<path d="m336,235
+						  c-8,-30 35,-30 25,0
+						  m-25,0
+						  c-8,-30 32,-30 25,0
+						  m-12,3.5
+						  l3,0"
+					style="stroke: #000; stroke-width: 1.2;fill:#FFF;opacity: 1">
+				</path>
+				<path d="m361,235
+						  q-10,6 -25,0"
+					style="stroke: #DDD; stroke-width: 1;fill:#FFF;opacity: 1">
+				</path>				
+				<circle cx="348" cy="225" r="8" style="stroke: #000; stroke-width: 1;fill:#000;opacity: 1;">
+				</circle>			
+				<circle cx="345" cy="221" r="2" style="stroke: #FFF; stroke-width: 1;fill:#FFF;opacity: 1;">
+				</circle>
+			</g>
+			
+			<g id="nose">
+				<path d="m312,233
+						  q1,8 7,11
+						  q-2,4 -6,4"
+					style="stroke: #000; stroke-width: 1;fill:none;opacity: 1">
+				</path>
+				<path d="m302,255
+						  q10,5 20,0"
+					style="stroke: #000; stroke-width: 1;fill:none;opacity: 1">
+				</path>
+			</g>
+			
+			<g id="glowDress" style="opacity:0;">
+				<path d="m305,296
+						  c-40,5 -70,80 -50,100"
+					style="stroke: #FFF; stroke-width: 10;fill:none;opacity: 0.7;filter:url(#glow1)">
+				</path>
+				<path d="m275,400
+						  q-5,50 -50,127"
+					style="stroke: #FFF; stroke-width: 10;fill:none;opacity: 1;filter:url(#glow1)">
+				</path>
+				<path d="m410,370
+						  q-50,-25 -85,-65
+						  c50,30 20,170 40,200"
+					style="stroke: #FFF; stroke-width: 10;fill:none;opacity: 1;filter:url(#glow1)">
+				</path>
+				
+				<animate id=""
+					  attributeName="opacity" 
+					  attributeType="CSS"
+					  to="0.8"
+					  dur="1s"
+					  fill="freeze"
+					  begin="aniStep4.end+2"/> 
+			</g>
+			
+				<animate id="aniStep3"
+					  attributeName="opacity" 
+					  attributeType="CSS"
+					  to="1"
+					  dur="3s"
+					  fill="freeze"
+					  begin="aniStep1.end + 7"/> 
+		</g>
+		
+		<path id="particlePath1"
+			d="m400,400 
+				q50,-70 100,0
+				q50,70 100,0
+				c30,-25 30,-75 0,-80
+				q-80,0 -80,150
+				c-10,50 -150,100 -120,-70"
+			style="stroke:#000;stroke-width:0;fill:none;">
+		</path>
+		<path id="particlePath2"
+			d="m1100,200 
+				q50,-70 100,0
+				q50,70 100,0
+				c30,-25 30,-75 0,-80
+				q-80,0 -80,150
+				c-10,50 -150,100 -120,-70"
+			style="stroke:#000;stroke-width:0;fill:none;">
+		</path>		
+		<path id="particlePath3"
+			d="m500,200 
+				q90,-70 200,0
+				q70,30 100,100
+				c0,125 -40,-75 -50,-130
+				c-100,-185 -120,75 -250,130
+				c-50,-30 -50,-70 0,-100"
+			style="stroke:#000;stroke-width:0;fill:none;">
+		</path>
+		<path id="particlePath4" transform="rotate(100,1000,500)"
+			d="m800,400 
+				q90,-70 200,0
+				q70,30 100,100
+				c0,125 -40,-75 -50,-130
+				c-100,-185 -120,75 -250,130
+				c-50,-30 -50,-70 0,-100"
+			style="stroke:#000;stroke-width:0;fill:none;">
+		</path>
+		<path id="particlePath5" transform="rotate(200,500,500)"
+			d="m200,500 
+				q90,-70 200,0
+				q70,30 100,100
+				c0,125 -40,-75 -50,-130
+				c-100,-185 -120,75 -250,130
+				c-50,-30 -50,-70 0,-100"
+			style="stroke:#000;stroke-width:0;fill:none;">
+		</path>
+		
+		<g id="particles" style="opacity:0">
+			<circle cx="0" cy="0" r="3" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="9s" begin="1s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath1"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="6" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="9s" begin="1s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath1"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="3" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="10s" begin="1.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath1"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="7" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="10s" begin="1.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath1"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="3" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="11s" begin="2s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath1"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="6" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="11s" begin="2s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath1"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="3" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="12s" begin="2.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath1"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="5" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="12s" begin="2.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath1"/>
+				</animateMotion>
+			</circle>
+			
+			
+			<circle cx="0" cy="0" r="4" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="10s" begin="1s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath2"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="7" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="10s" begin="1s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath2"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="5" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="11s" begin="1.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath2"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="8" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="11s" begin="1.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath2"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="4" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="12s" begin="2s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath2"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="7" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="12s" begin="2s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath2"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="4" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="13s" begin="2.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath2"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="7" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="13s" begin="2.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath2"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="3" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="14s" begin="3s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath2"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="6" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="14s" begin="3s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath2"/>
+				</animateMotion>
+			</circle>
+			
+			
+			<circle cx="0" cy="0" r="4" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="10s" begin="1s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath3"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="7" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="10s" begin="1s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath3"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="5" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="11s" begin="1.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath3"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="8" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="11s" begin="1.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath3"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="4" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="12s" begin="2s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath3"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="7" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="12s" begin="2s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath3"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="4" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="13s" begin="2.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath3"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="7" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="13s" begin="2.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath3"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="3" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="14s" begin="2.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath3"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="6" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="14s" begin="2.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath3"/>
+				</animateMotion>
+			</circle>
+			
+			
+			<circle cx="0" cy="0" r="3" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="9s" begin="1s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath4"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="6" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="9s" begin="1s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath4"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="3" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="10s" begin="1.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath4"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="7" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="10s" begin="1.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath4"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="3" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="11s" begin="2s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath4"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="6" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="11s" begin="2s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath4"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="3" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="12s" begin="2.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath4"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="5" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="12s" begin="2.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath4"/>
+				</animateMotion>
+			</circle>
+			
+			
+			<circle cx="0" cy="0" r="3" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="9s" begin="1s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath4"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="6" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="9s" begin="1s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath4"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="3" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="10s" begin="1.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath4"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="7" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="10s" begin="1.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath4"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="3" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="11s" begin="2s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath4"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="6" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="11s" begin="2s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath4"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="3" fill="#FFF" filter="url(#)">
+				<animateMotion id="" dur="12s" begin="2.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath4"/>
+				</animateMotion>
+			</circle>
+			<circle cx="0" cy="0" r="5" fill="#FFF" filter="url(#glow1)">
+				<animateMotion id="" dur="12s" begin="2.5s" repeatCount="indefinite">
+				   <mpath xlink:href="#particlePath4"/>
+				</animateMotion>
+			</circle>
+			
+			
+				<animate id="aniStep5"
+					  attributeName="opacity" 
+					  attributeType="CSS"
+					  to="1"
+					  dur="2s"
+					  fill="freeze"
+					  begin="aniStep4.end+9"/>
+		</g>
+	</g>
+	
+	<g id="signature" transform="scale(0.7),translate(950,400)">
+		<path d="M810,515
+				  q-35,25 -50,50
+				  c50,-10 50,25 0,35
+				  
+				  M828,550
+				  c-35,-20 -25,59 5,15
+				  c3,-13 -20,-35 2,3
+				  q2,5 5,2
+				  
+				  M848,565
+				  c-15,-30 10,-30 12,-10
+				  c-10,-30 12,-27 15,-2
+				  
+				  M875,530
+				  c20,-15 -15,-15 15,-3
+				  c-11,6 3,27 14,5
+				  
+				  M927,503
+				  c-35,-20 -25,59 5,15
+				  c3,-13 -20,-35 2,3
+				  q2,5 5,2
+				  
+				  M947,518
+				  c10,-65 -30,-65 10,-4
+				  
+				  M935,500
+				  l28,-25"
+		style="stroke: #DCDCDC; stroke-width:2;fill:none;stroke-dasharray:1000;stroke-dashoffset: 1000;">
+			
+			<animate id=""
+				  attributeName="stroke-dashoffset" 
+				  attributeType="CSS"
+			  to="0"
+			  dur="12s"
+			  fill="freeze"
+			  begin="70s"/> 
+		</path>
+	</g>
+</svg>
+
+    </body>
+</html>     
