@@ -9,6 +9,7 @@
   - http://samratambadekar.com/projects/svg/drWho/tardis.html
   - http://samratambadekar.com/projects/svg/shivaji/shivaji.html
   - http://samratambadekar.com/projects/svg/lightsaber.svg
+  - samratambadekar.com/projects/svg/sots/saoirse.html
   - http://samratambadekar.com/projects/svg/korra/korra.html
   
 
